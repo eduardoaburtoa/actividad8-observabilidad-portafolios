@@ -16,3 +16,10 @@
 - La reproducción limpia en GitHub detectó que SQLAlchemy 2.1 elimina una clase utilizada por MLflow 2.22.2. Se fija SQLAlchemy 2.0.40, versión usada en la ejecución local. Se conserva la corrida fallida de Actions como trazabilidad.
 - El registro de nuevos experimentos incluye únicamente archivos generados por esa corrida, evitando incorporar capturas antiguas. Se verifica el hash contra el manifest antes de iniciar.
 - Se corrigió la transferencia truncada del Word de evidencia; se comparan todos los archivos remotos con los locales.
+
+## Revisión 1.1.0 en ramas
+
+### 01 — Runbooks dentro del documento técnico
+- Se versiona la fuente de los tres reportes en scripts/build_reports.py. La exportación se reserva a la rama 06.
+- Se incorpora tabla autónoma de disparadores, prioridades, diagnóstico, corrección, cierre y escalamiento, y explicación de seis etapas. Criterio 3.
+- CI conserva las 9 pruebas y el verificador, pero deja de reejecutar el laboratorio para proteger las cifras publicadas. No se alteran modelo, umbral ni evidencia original.
