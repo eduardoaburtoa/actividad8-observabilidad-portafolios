@@ -17,6 +17,7 @@ def main():
     sample[['id','y']].to_csv(out/'muestra_canario.csv',index=False)
     expected=json.loads((ROOT/'modelos/manifest.json').read_text())
     model_hash=hashlib.sha256((ROOT/'modelos/modelo_SVM_calibrada.joblib').read_bytes()).hexdigest()
+    assert model_hash==expected['sha256'], 'El modelo no coincide con el manifest'
     with socket.socket() as s:s.bind(('127.0.0.1',0));port=s.getsockname()[1]
     env=dict(os.environ,API_TOKEN=secrets.token_urlsafe(32),LAB_TOKEN=secrets.token_urlsafe(32),LAB_MODE='1',TELEMETRY_DIR=str(runtime))
     base=f'http://127.0.0.1:{port}'; headers={'X-API-Key':env['API_TOKEN']};labheaders={'X-Lab-Token':env['LAB_TOKEN']}
@@ -96,8 +97,8 @@ def main():
             summary={'session':session,'model_sha256':model_hash,'requests':total,'windows':len(windows),'mlflow_run_id':run.info.run_id,'mlflow_experiment_id':run.info.experiment_id,'raw_notifications':engine.raw,'emitted_notifications':engine.emitted,'suppressed_notifications':engine.suppressed,'noise_reduction_fraction':engine.suppressed/engine.raw if engine.raw else 0,'availability_budget_allowed':total*(1-config['availability_slo']),'availability_budget_used':bad,'latency_budget_allowed':total*(1-config['latency_slo']),'latency_budget_used':slow,'incidents':incidents,'all_recovered':all(i['status']=='resolved' for i in incidents),'mttd_seconds':sum(i['detection_seconds'] for i in incidents if i['detection_seconds'] is not None)/len(incidents),'mttr_seconds':sum(i['recovery_seconds'] for i in incidents if i['recovery_seconds'] is not None)/len(incidents),'scope':'laboratorio local con solicitudes reales y fallas inyectadas; no tráfico de clientes ni SLO mensual validado'}
             (out/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2));(out/'incidents.json').write_text(json.dumps(incidents,ensure_ascii=False,indent=2))
             
-            for artifact in out.iterdir():
-                if artifact.is_file() and artifact.name!='mlflow_export.json':mlflow.log_artifact(str(artifact),artifact_path='evidencias')
+            for name in ['summary.json','windows.json','alerts.json','incidents.json','runbook_steps.json','requests.jsonl','logs.jsonl','traces.jsonl','actions.jsonl','muestra_canario.csv']:
+                mlflow.log_artifact(str(out/name),artifact_path='evidencias')
             mlflow.log_artifact(str(ROOT/'config/alertas.json'),artifact_path='config')
             mlflow.set_tags({'scope':'simulacion_academica','model_changed':'false','retraining':'not_executed'})
         client=MlflowClient();saved=client.get_run(run.info.run_id)

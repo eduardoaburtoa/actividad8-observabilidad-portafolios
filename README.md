@@ -40,7 +40,7 @@ Implementé un laboratorio que detecta y recupera incidentes del servicio de cla
 
 ## Reproducir desde cero
 
-Python 3.12. Ejecutar desde la raíz del repositorio. La instalación descarga paquetes; el laboratorio usa el modelo y dataset versionados, sin servicios de pago ni claves externas.
+Python 3.12 y SQLAlchemy 2.0.40 fijado por compatibilidad con MLflow 2.22.2. Ejecutar desde la raíz del repositorio. La instalación descarga paquetes; el laboratorio usa el modelo y dataset versionados, sin servicios de pago ni claves externas.
 
 ```bash
 git clone https://github.com/eduardoaburtoa/actividad8-observabilidad-portafolios.git
@@ -89,4 +89,4 @@ Mi propósito es preparar revisiones de portafolio con señales trazables y revi
 
 `observabilidad/`: instrumentación y monitor · `config/`: reglas · `scripts/`: laboratorio, gráficas y verificación · `evidencias/`: mediciones reales exportadas · `runbooks/`: respuesta · `pruebas/`: pruebas automatizadas · `documentos/`: entregables · `backend/`, `modelos/`, `datos/`, `frontend/` y `contexto/`: continuidad de Fase II.
 
-[Historial y decisiones](CHANGELOG.md) · [Aviso de uso académico](AVISO.md)
+[Validación automática](https://github.com/eduardoaburtoa/actividad8-observabilidad-portafolios/actions) · [Historial y decisiones](CHANGELOG.md) · [Aviso de uso académico](AVISO.md)

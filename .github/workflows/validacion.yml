@@ -17,8 +17,14 @@ jobs:
       - run: python scripts/verify_evidence.py
       - run: python scripts/run_lab.py
       - run: python scripts/verify_evidence.py
+      - run: python scripts/figures.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: evidencia-ci
-          path: evidencias/
+          path: |
+            evidencias/*.json
+            evidencias/*.jsonl
+            evidencias/muestra_canario.csv
+            evidencias/dashboard_mediciones.png
+            evidencias/presupuesto_alertas.png

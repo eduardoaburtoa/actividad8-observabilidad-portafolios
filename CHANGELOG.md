@@ -10,3 +10,9 @@
 - Se corrige el cierre de alertas de calidad cuando faltan etiquetas: la ausencia de datos no implica recuperación.
 - El campo histórico `server_errors` representa todas las solicitudes no exitosas del canario válido, incluidos timeouts; se documenta para evitar interpretarlo sólo como HTTP 5xx.
 - Limitaciones: monitor de un proceso, canario retrospectivo repetido, ventanas por solicitudes, PSI de una variable, trazas locales. No se acredita operación productiva, SLA mensual, rentabilidad ni sustitución automática del modelo.
+
+## 1.0.1 — Revisión de publicación
+
+- La reproducción limpia en GitHub detectó que SQLAlchemy 2.1 elimina una clase utilizada por MLflow 2.22.2. Se fija SQLAlchemy 2.0.40, versión usada en la ejecución local. Se conserva la corrida fallida de Actions como trazabilidad.
+- El registro de nuevos experimentos incluye únicamente archivos generados por esa corrida, evitando incorporar capturas antiguas. Se verifica el hash contra el manifest antes de iniciar.
+- Se corrigió la transferencia truncada del Word de evidencia; se comparan todos los archivos remotos con los locales.
