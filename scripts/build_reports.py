@@ -50,6 +50,13 @@ def image(d,name,width=6):
  p(d,f"Figura {n}. {captions.get(name,name)} Fuente: elaboración propia, laboratorio local; no tráfico bancario.")
 def save(d,name):d.save(O/(name+'.docx'))
 
+def budget(d):
+ h(d,'Alertas y presupuesto de error (error budget)')
+ p(d,'El presupuesto de error (error budget) es el número de fallas que tolera el SLO dentro del conjunto observado: N × (1 − SLO). Distingo lo permitido, lo consumido y el saldo; aquí N=900 solicitudes, no un mes de servicio.')
+ table(d,['SLO','Permitido','Consumido','Saldo'],[['Disponibilidad 99 %',9,0,9],['Latencia 99 % ≤250 ms',9,120,-111]])
+ p(d,'El SLO de latencia no se cumplió. La configuración se recuperó y las últimas dos ventanas fueron sanas, pero recuperar el servicio no restituye el presupuesto gastado. El burn rate divide la fracción de fallas entre 0.01: es un multiplicador del ritmo tolerado. Elegí >2.0 para detectar un consumo superior al doble de ese ritmo; es una decisión de laboratorio, no un valor óptimo demostrado. Exijo dos ventanas consecutivas de 60 solicitudes para reducir aperturas por fluctuaciones aisladas.')
+ p(d,'La persistencia y deduplicación redujeron seis avisos crudos a tres notificaciones emitidas: 50 % menos. Esta comparación mide volumen de avisos, no una tasa de falsos positivos. Priorizar y verificar la recuperación protege la continuidad sin ocultar el incumplimiento histórico.')
+
 d=base('Monitorización y gobernanza del servicio de portafolios')
 h(d,'Propósito y decisión operativa')
 p(d,'Como banquero Sr., necesito saber cuándo una señal deja de ser confiable antes de incorporarla a una revisión de portafolio. En esta entrega implementé observabilidad para la API de clasificación de noticias de Fase II. Mi decisión es mantener la solución como laboratorio académico: las tres fallas simuladas se detectaron y recuperaron, pero la corrida completa incumplió el presupuesto de latencia. La recuperación no equivale a acreditar producción.')
@@ -71,6 +78,7 @@ p(d,'El campo exportado server_errors conserva su nombre histórico, pero cuenta
 h(d,'SLO y presupuesto de error')
 p(d,'Definí SLO de disponibilidad de 99 % y SLO de latencia de 99 % de solicitudes ≤250 ms. Para N solicitudes, presupuesto permitido = N × (1 − SLO); consumo = número de solicitudes malas; saldo = permitido − consumo. Burn rate = fracción mala / (1 − SLO). Son ventanas por solicitudes del laboratorio, no ventanas mensuales de producción ni un SLA contractual.')
 p(d,'En 900 solicitudes, cada presupuesto permite 9 eventos. La disponibilidad consumió cero. La latencia consumió 120: saldo −111 y cumplimiento agregado 86.67 %. El burn agregado fue 13.33 veces la tasa permitida. El servicio volvió a su condición normal después de la intervención, pero ese consumo permanece registrado.')
+page(d);budget(d)
 page(d);h(d,'Alertas y reducción de ruido')
 table(d,['Regla','Disparador y prioridad','Respuesta'],[
 ['Disponibilidad','Burn >2 en dos ventanas de 60; P1','Diagnóstico y rollback de configuración; escalamiento si persiste'],
@@ -121,7 +129,8 @@ h(d,'Qué demuestra esta evidencia')
 p(d,'Presento mediciones de una ejecución local del servicio instrumentado. Se enviaron 900 solicitudes HTTP reales a la API y se inyectaron tres fallas controladas. La sesión '+s['session']+' usa UTC; corresponde al 5 de noviembre de 2026 en Ciudad de México. No es una captura de producción bancaria.')
 p(d,'La figura muestra los cambios de latencia, recall y longitud por ventana. Las franjas amarillas identifican las ventanas con falla. Las mediciones posteriores documentan recuperación; la última ventana termina sin alertas activas.')
 image(d,'dashboard_mediciones.png',5.8)
-page(d);h(d,'Presupuesto y política de notificación')
+page(d);budget(d)
+h(d,'Presupuesto y política de notificación')
 image(d,'presupuesto_alertas.png',6)
 p(d,'El SLO agregado de latencia no se cumple: 120 solicitudes consumidas frente a 9 permitidas. La disponibilidad sí conserva su presupuesto. La política de persistencia reduce de seis avisos por ventana a tres aperturas; no convierte el incidente en un éxito de SLO ni acredita ausencia de falsos positivos.')
 h(d,'Registro real en MLflow')
@@ -161,6 +170,7 @@ h(d,'Incidente de drift')
 p(d,'Repetí ocho veces los textos del lote para desplazar su distribución de longitud. RB03 detectó PSI mayor a 0.20, puso en cuarentena el flujo sintético y volvió a usar la entrada de referencia. El escalamiento quedó como ticket local con reentrenamiento no ejecutado.')
 p(d,f"El PSI máximo fue {max(z['length_psi'] for z in w):.3f}; volvió a {w[-1]['length_psi']:.3f}. La detección tomó {s['incidents'][2]['detection_seconds']:.3f} s y la recuperación verificada {s['incidents'][2]['recovery_seconds']:.3f} s. La prueba demuestra drift de longitud; no identifica un cambio conceptual ni exige por sí sola reentrenar.")
 p(d,'Acción preventiva: observar otras variables, comprobar origen y calidad del lote y solicitar evaluación humana antes de actualizar el modelo. Una cuarentena productiva requeriría almacenamiento separado, permisos y política de recuperación; aquí se controla el generador local.')
+page(d);budget(d)
 page(d);h(d,'Cronología y cierre')
 from datetime import datetime,timezone
 fmt=lambda t:datetime.fromtimestamp(t,timezone.utc).strftime('%H:%M:%S.%f')[:-3]
