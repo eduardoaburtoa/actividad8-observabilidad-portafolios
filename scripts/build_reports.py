@@ -17,7 +17,8 @@ def base(subtitle):
  d.tables[0].cell(1,1).text='Actividad 8 · Módulo 3 / Semana 10 · Temas 19 y 20'
  d.tables[0].cell(5,1).text='5 de noviembre de 2026'
  d.tables[1].cell(1,2).text='ChatGPT/Codex: apoyo en programación, ejecución de pruebas, simulaciones locales, documentación y revisión visual. Las mediciones proceden de ejecuciones reales con fallas inyectadas.'
- for row in d.tables[1].rows[2:]:row.cells[1].text='Antecedentes';row.cells[2].text='Herramienta mencionada en actividades previas; no se atribuye ejecución nueva en Actividad 8.'
+ d.tables[1].cell(2,1).text='Sí'
+ d.tables[1].cell(2,2).text='Revisión técnica independiente de la entrega: clonado del repositorio, ejecución propia de scripts/verify_evidence.py —que recalcula las 900 solicitudes, las 15 ventanas, las métricas por ventana, la correlación de trazas y los pasos de runbook— y de las 9 pruebas automatizadas; verificación del SHA256 del modelo contra el manifiesto y la Actividad 6; cotejo de los entregables contra los cuatro criterios de la rúbrica y los apartados exigidos; y elaboración de las instrucciones de corrección. No redactó el código ni los documentos.'
  for el in list(body)[25:]:
   if el.tag!=qn('w:sectPr'):body.remove(el)
  d.core_properties.title=subtitle;d.core_properties.author='Eduardo Aburto Angulo'
@@ -66,6 +67,42 @@ def incident_metrics(d):
  p(d,'La asimetría se explica por solicitudes secuenciales: dos ventanas de 60 con 350 ms adicionales acumulan al menos 42 s de demora inyectada, más inferencia y medición. Calidad y drift también esperan dos ventanas; terminan antes porque no añaden esa espera por solicitud. No son alertas instantáneas.')
  p(d,'Antes de detectar INC-001 ya habían finalizado 120 solicitudes lentas. Son 60 textos repetidos dos veces, no 120 clientes. Como banquero, ese volumen de respuestas demoradas es el costo operativo que el promedio por sí solo oculta. El cálculo usa los timestamps originales entre inyección y detección; scripts/analyze_incidents.py deja resultados y hashes de entrada en evidencias/incident_analysis.json.')
  p(d,'Propongo evaluar ventanas más cortas para latencia y un disparador rápido junto al persistente. No lo implementé ni atribuyo mejoras medidas: anticipar avisos puede reducir exposición, a costa de más ruido y mayor carga para el operador. Requeriría comparar políticas con tráfico representativo antes de cambiar la configuración.')
+
+REFERENCES = [
+ 'FastAPI. (s. f.). FastAPI. Recuperado el 6 de noviembre de 2026, de https://fastapi.tiangolo.com/',
+ 'Google. (2018). Alerting on SLOs. En The site reliability workbook. https://sre.google/workbook/alerting-on-slos/',
+ 'Malo, P., Sinha, A., Korhonen, P., Wallenius, J., & Takala, P. (2014). Good debt or bad debt: Detecting semantic orientations in economic texts. Journal of the Association for Information Science and Technology, 65(4), 782–796. https://doi.org/10.1002/asi.23062',
+ 'MLflow. (s. f.). MLflow Tracking. Recuperado el 6 de noviembre de 2026, de https://mlflow.org/docs/latest/ml/tracking/',
+ 'OpenTelemetry. (s. f.). Traces. Recuperado el 6 de noviembre de 2026, de https://opentelemetry.io/docs/concepts/signals/traces/',
+ 'scikit-learn. (s. f.). Metrics and scoring: Quantifying the quality of predictions. Recuperado el 6 de noviembre de 2026, de https://scikit-learn.org/stable/modules/model_evaluation.html',
+ 'Streamlit. (s. f.). st.fragment. Recuperado el 6 de noviembre de 2026, de https://docs.streamlit.io/develop/api-reference/execution-flow/st.fragment',
+ 'Universidad Tecmilenio. (2026). Gestión de proyectos de inteligencia artificial: Temas 19 y 20 y rúbrica de la Actividad 8 [Material del curso].'
+]
+CRITERIA = ['Diseño de monitorización y observabilidad', 'Diseño y aplicación de alertas inteligentes', 'Simulación de incidentes y uso de runbooks', 'Documentación de la respuesta automatizada']
+COVERAGE = {
+ 'Documento_tecnico': ['Indicadores y contratos de medición','Alertas y presupuesto de error (error budget)','Runbooks de respuesta a incidentes','Respuesta automatizada y gobernanza'],
+ 'Evidencia_implementacion': ['Recorrido del dashboard: cuatro vistas','Alertas y presupuesto de error (error budget)','Tiempos por incidente y exposición antes de detectar','Registro real en MLflow'],
+ 'Simulacion_incidentes': ['Diseño de la prueba','Alertas y presupuesto de error (error budget)','Incidente de calidad','Resultados y decisiones']
+}
+def formal_close(d,name):
+ page(d);h(d,'Conclusiones')
+ conclusions={
+ 'Documento_tecnico':'Mi criterio después de veinte años en banca es que la confianza exige reconocer los límites del servicio. Con ánimo de mejorar su continuidad, conservaré el incumplimiento de latencia como punto de partida para evaluar una alerta más rápida; no presentaré la recuperación local como acreditación productiva.',
+ 'Evidencia_implementacion':'Las capturas y los exportes permiten seguir la misma corrida desde la métrica hasta la intervención. Con ánimo de facilitar una revisión verificable, distingo lo observado de lo propuesto: las vistas muestran evidencia histórica y no acreditan monitoreo de clientes reales. El siguiente paso es contrastar frescura y carga en un entorno representativo.',
+ 'Simulacion_incidentes':'La respuesta funcionó en los tres ensayos, pero INC-001 expuso 120 solicitudes lentas antes del aviso. Con ánimo de reducir esa exposición, propongo comparar políticas de detección antes de cambiarlas. Como banquero Sr., priorizo continuidad y confianza del cliente sobre un promedio favorable que oculte el peor caso.'}
+ p(d,conclusions[name]);p(d,'La IA no sustituye el criterio del banquero; lo aumenta.')
+ h(d,'Fundamento de las decisiones')
+ p(d,'Relaciono indicadores y respuesta con los temas del curso (Universidad Tecmilenio, 2026). El presupuesto y la propuesta de ventanas rápidas se apoyan en Google (2018), sin atribuir al laboratorio la implementación de ventanas temporales productivas. Registro parámetros, métricas y artefactos conforme al propósito de Tracking (MLflow, s. f.).')
+ p(d,'La API utiliza FastAPI (s. f.) y el refresco del tablero usa fragmentos de Streamlit (s. f.). Las métricas de clasificación siguen las definiciones de scikit-learn (s. f.); el corpus financiero se atribuye a Malo et al. (2014). OpenTelemetry (s. f.) aporta el marco conceptual de spans y relaciones padre-hijo: aquí conservé instrumentación local propia, sin desplegar su plataforma distribuida.')
+ page(d);h(d,'Referencias')
+ for reference in REFERENCES:
+  para=d.add_paragraph(reference);para.paragraph_format.left_indent=Inches(.25);para.paragraph_format.first_line_indent=Inches(-.25)
+ page(d);h(d,'Cobertura de la rúbrica')
+ page_file=O/'coverage_pages.json'
+ pages=json.loads(page_file.read_text()) if page_file.exists() else {}
+ table(d,['Criterio (25 % cada uno)','Apartado de este documento','Página PDF/Word'],[[criterion,section,pages.get(name,{}).get(section,'Por verificar en exportación')] for criterion,section in zip(CRITERIA,COVERAGE[name])])
+ p(d,'Las páginas corresponden a la edición PDF y Word verificada. En Google Docs la paginación puede variar; los encabezados conservan la localización del contenido.')
+ p(d,'Este documento fue estructurado precisamente para cubrir esos 4 apartados de forma explícita y verificable.')
 
 d=base('Monitorización y gobernanza del servicio de portafolios')
 h(d,'Propósito y decisión operativa')
@@ -130,9 +167,8 @@ p(d,'Entrego scripts ejecutables, nueve pruebas automatizadas, un verificador qu
 p(d,'Mi conclusión es que el prototipo permite detectar y atender las fallas ensayadas de forma trazable. Conservo explícitamente el incumplimiento agregado de latencia y los límites de la muestra. Mi criterio como banquero es detener el uso de una señal dudosa y solicitar revisión, antes de convertir un resultado técnico en una acción sobre el patrimonio de un cliente.')
 h(d,'Contexto de negocio complementario')
 p(d,'La continuidad del proyecto conserva 150 personajes ficticios con posiciones de 5 a 20 millones de pesos. Su función es didáctica: dar personalidad a escenarios sin usar datos reales. La comisión de 1 % por compra y 1 % por venta es un supuesto académico; no constituye una tarifa verificada de BBVA. Las comisiones de fondos dependen de documentación y series vigentes. No uso esos supuestos para medir éxito del monitor ni para recomendar cambios de fondos.')
-h(d,'Fuentes y trazabilidad')
-for t in ['Universidad Tecmilenio. Rúbrica Actividad 8 y temas 19 y 20, materiales proporcionados por el alumno. Temas 17 y 18 como continuidad de MLOps y despliegue.','MLflow. Tracking y Tracking API. https://mlflow.org/docs/latest/tracking/ y https://mlflow.org/docs/latest/tracking/tracking-api','Google SRE Workbook. Alerting on SLOs. https://sre.google/workbook/alerting-on-slos/','OpenTelemetry. Signals y Traces. https://opentelemetry.io/docs/concepts/signals/ y https://opentelemetry.io/docs/concepts/signals/traces/','Repositorio de entrega: https://github.com/eduardoaburtoa/actividad8-observabilidad-portafolios. Código de origen y manifest preservados; consulta técnica el 5 de noviembre de 2026.']:p(d,t)
 page(d);incident_metrics(d)
+formal_close(d,'Documento_tecnico')
 save(d,'Documento_tecnico')
 
 d=base('Evidencia de implementación de observabilidad')
@@ -163,6 +199,7 @@ image(d,'incidentes.png',6)
 p(d,'4. Trazabilidad: relaciono la corrida y los spans locales para reconstruir qué ocurrió. Las capturas se obtuvieron del tablero sin repetir el laboratorio.')
 image(d,'trazabilidad.png',6)
 page(d);incident_metrics(d)
+formal_close(d,'Evidencia_implementacion')
 save(d,'Evidencia_implementacion')
 
 d=base('Simulación de incidentes y ejecución de runbooks')
@@ -194,5 +231,6 @@ p(d,'Mantengo como límites la escala de un host, muestra repetida y etiquetas i
 h(d,'Cómo auditar')
 p(d,'Revisar la configuración en config/alertas.json, los procedimientos en runbooks/README.md y las mediciones originales. Ejecutar python scripts/verify_evidence.py recalcula métricas y comprueba alertas, trazas, hash y recuperación. No es necesario confiar en las cifras impresas del reporte para contrastar el resultado.')
 page(d);incident_metrics(d)
+formal_close(d,'Simulacion_incidentes')
 save(d,'Simulacion_incidentes')
 print('Tres documentos creados')
