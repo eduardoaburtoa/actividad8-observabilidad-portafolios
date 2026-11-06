@@ -57,6 +57,16 @@ def budget(d):
  p(d,'El SLO de latencia no se cumplió. La configuración se recuperó y las últimas dos ventanas fueron sanas, pero recuperar el servicio no restituye el presupuesto gastado. El burn rate divide la fracción de fallas entre 0.01: es un multiplicador del ritmo tolerado. Elegí >2.0 para detectar un consumo superior al doble de ese ritmo; es una decisión de laboratorio, no un valor óptimo demostrado. Exijo dos ventanas consecutivas de 60 solicitudes para reducir aperturas por fluctuaciones aisladas.')
  p(d,'La persistencia y deduplicación redujeron seis avisos crudos a tres notificaciones emitidas: 50 % menos. Esta comparación mide volumen de avisos, no una tasa de falsos positivos. Priorizar y verificar la recuperación protege la continuidad sin ocultar el incumplimiento histórico.')
 
+def incident_metrics(d):
+ a=json.loads((E/'incident_analysis.json').read_text())
+ h(d,'Tiempos por incidente y exposición antes de detectar')
+ table(d,['Caso','Detección s','Recuperación s','Solicitudes lentas antes de detectar'],[[i['id'],f"{i['detection_seconds']:.3f}",f"{i['recovery_seconds']:.3f}",i['slow_completed_requests_before_detection']] for i in a['incidents']])
+ table(d,['Resumen','Detección s','Recuperación s'],[[label,f"{a['detection_seconds'][key]:.3f}",f"{a['recovery_seconds'][key]:.3f}"] for label,key in [('Media','mean'),('Mediana','median'),('Máximo','max')]])
+ p(d,'Por incidente reporto tiempo de detección y recuperación; MTTD y MTTR son sus medias entre incidentes. La mediana describe mejor el centro de estos tres ensayos, mientras el máximo revela la exposición más prolongada. Ninguno permite estimar tiempos productivos con una muestra tan pequeña.')
+ p(d,'La asimetría se explica por solicitudes secuenciales: dos ventanas de 60 con 350 ms adicionales acumulan al menos 42 s de demora inyectada, más inferencia y medición. Calidad y drift también esperan dos ventanas; terminan antes porque no añaden esa espera por solicitud. No son alertas instantáneas.')
+ p(d,'Antes de detectar INC-001 ya habían finalizado 120 solicitudes lentas. Son 60 textos repetidos dos veces, no 120 clientes. Como banquero, ese volumen de respuestas demoradas es el costo operativo que el promedio por sí solo oculta. El cálculo usa los timestamps originales entre inyección y detección; scripts/analyze_incidents.py deja resultados y hashes de entrada en evidencias/incident_analysis.json.')
+ p(d,'Propongo evaluar ventanas más cortas para latencia y un disparador rápido junto al persistente. No lo implementé ni atribuyo mejoras medidas: anticipar avisos puede reducir exposición, a costa de más ruido y mayor carga para el operador. Requeriría comparar políticas con tráfico representativo antes de cambiar la configuración.')
+
 d=base('Monitorización y gobernanza del servicio de portafolios')
 h(d,'Propósito y decisión operativa')
 p(d,'Como banquero Sr., necesito saber cuándo una señal deja de ser confiable antes de incorporarla a una revisión de portafolio. En esta entrega implementé observabilidad para la API de clasificación de noticias de Fase II. Mi decisión es mantener la solución como laboratorio académico: las tres fallas simuladas se detectaron y recuperaron, pero la corrida completa incumplió el presupuesto de latencia. La recuperación no equivale a acreditar producción.')
@@ -122,6 +132,7 @@ h(d,'Contexto de negocio complementario')
 p(d,'La continuidad del proyecto conserva 150 personajes ficticios con posiciones de 5 a 20 millones de pesos. Su función es didáctica: dar personalidad a escenarios sin usar datos reales. La comisión de 1 % por compra y 1 % por venta es un supuesto académico; no constituye una tarifa verificada de BBVA. Las comisiones de fondos dependen de documentación y series vigentes. No uso esos supuestos para medir éxito del monitor ni para recomendar cambios de fondos.')
 h(d,'Fuentes y trazabilidad')
 for t in ['Universidad Tecmilenio. Rúbrica Actividad 8 y temas 19 y 20, materiales proporcionados por el alumno. Temas 17 y 18 como continuidad de MLOps y despliegue.','MLflow. Tracking y Tracking API. https://mlflow.org/docs/latest/tracking/ y https://mlflow.org/docs/latest/tracking/tracking-api','Google SRE Workbook. Alerting on SLOs. https://sre.google/workbook/alerting-on-slos/','OpenTelemetry. Signals y Traces. https://opentelemetry.io/docs/concepts/signals/ y https://opentelemetry.io/docs/concepts/signals/traces/','Repositorio de entrega: https://github.com/eduardoaburtoa/actividad8-observabilidad-portafolios. Código de origen y manifest preservados; consulta técnica el 5 de noviembre de 2026.']:p(d,t)
+page(d);incident_metrics(d)
 save(d,'Documento_tecnico')
 
 d=base('Evidencia de implementación de observabilidad')
@@ -151,6 +162,7 @@ p(d,'3. Incidentes y runbooks: reviso prioridad, apertura, cierre y pasos. Exijo
 image(d,'incidentes.png',6)
 p(d,'4. Trazabilidad: relaciono la corrida y los spans locales para reconstruir qué ocurrió. Las capturas se obtuvieron del tablero sin repetir el laboratorio.')
 image(d,'trazabilidad.png',6)
+page(d);incident_metrics(d)
 save(d,'Evidencia_implementacion')
 
 d=base('Simulación de incidentes y ejecución de runbooks')
@@ -181,5 +193,6 @@ p(d,'Los tres incidentes finalizaron resolved y el modelo conservó su hash. La 
 p(d,'Mantengo como límites la escala de un host, muestra repetida y etiquetas inmediatas. En un servicio real las etiquetas tardarían en llegar y las acciones necesitarían control de concurrencia, persistencia y guardias. Mi recomendación es validar esas condiciones antes de permitir que las señales apoyen decisiones operativas de clientes.')
 h(d,'Cómo auditar')
 p(d,'Revisar la configuración en config/alertas.json, los procedimientos en runbooks/README.md y las mediciones originales. Ejecutar python scripts/verify_evidence.py recalcula métricas y comprueba alertas, trazas, hash y recuperación. No es necesario confiar en las cifras impresas del reporte para contrastar el resultado.')
+page(d);incident_metrics(d)
 save(d,'Simulacion_incidentes')
 print('Tres documentos creados')

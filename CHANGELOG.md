@@ -29,3 +29,6 @@ Dashboard documentado panel por panel, decisiones operativas y pies numerados. C
 
 ## Revisión · rama 03
 Presupuesto de error explícito en los tres reportes: permitido, consumo, saldo, burn rate y reducción de ruido. Se conserva el incumplimiento agregado de latencia. Criterio 2; exportación diferida a rama 06.
+
+## Revisión · rama 04
+Script reproducible de tiempos por incidente, media, mediana, máximo y exposición anterior a detección. JSON derivado de evidencias originales con hashes de origen; reportes explican asimetría y propuesta no implementada. Criterio 3.

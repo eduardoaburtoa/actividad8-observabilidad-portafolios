@@ -1,0 +1,46 @@
+{
+  "method": "Timestamp de finalización entre inyección y detección, inclusive. Lenta: duración >250 ms. Solicitudes repetidas, no clientes únicos.",
+  "source_sha256": {
+    "incidents.json": "900b0bc797b971b05fe7499d8ea1887e2f89c805031222c254670f9f82bbb8dd",
+    "requests.jsonl": "0f9bd8917f0fecccafcbdd23c960462a407391595186a1300dbea0e8ef5bf866"
+  },
+  "incidents": [
+    {
+      "id": "INC-001",
+      "type": "latency",
+      "detection_seconds": 43.45707702636719,
+      "recovery_seconds": 0.2911548614501953,
+      "completed_requests_before_detection": 120,
+      "slow_completed_requests_before_detection": 120,
+      "unique_sample_ids_before_detection": 60
+    },
+    {
+      "id": "INC-002",
+      "type": "degradation",
+      "detection_seconds": 0.2954440116882324,
+      "recovery_seconds": 0.2679469585418701,
+      "completed_requests_before_detection": 120,
+      "slow_completed_requests_before_detection": 0,
+      "unique_sample_ids_before_detection": 60
+    },
+    {
+      "id": "INC-003",
+      "type": "drift",
+      "detection_seconds": 0.29750776290893555,
+      "recovery_seconds": 0.2608780860900879,
+      "completed_requests_before_detection": 120,
+      "slow_completed_requests_before_detection": 0,
+      "unique_sample_ids_before_detection": 60
+    }
+  ],
+  "detection_seconds": {
+    "mean": 14.683342933654785,
+    "median": 0.29750776290893555,
+    "max": 43.45707702636719
+  },
+  "recovery_seconds": {
+    "mean": 0.2733266353607178,
+    "median": 0.2679469585418701,
+    "max": 0.2911548614501953
+  }
+}
