@@ -32,3 +32,6 @@ Presupuesto de error explícito en los tres reportes: permitido, consumo, saldo,
 
 ## Revisión · rama 04
 Script reproducible de tiempos por incidente, media, mediana, máximo y exposición anterior a detección. JSON derivado de evidencias originales con hashes de origen; reportes explican asimetría y propuesta no implementada. Criterio 3.
+
+## Revisión · rama 05
+Referencias APA, citas autor-año, conclusiones y cobertura por criterio en las tres fuentes. Declaración de Claude actualizada según auditoría comunicada por el alumno; Gemini y Copilot conservados. Páginas se resolverán al exportar en rama 06. Criterio 4.
