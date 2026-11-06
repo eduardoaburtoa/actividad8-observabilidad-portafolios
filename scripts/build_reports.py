@@ -43,7 +43,11 @@ def table(d,heads,rows):
     for run in pa.runs:run.font.size=Pt(9);run.font.color.rgb=RGBColor.from_string('FFFFFF' if ri==0 else '072146')
   trpr=row._tr.get_or_add_trPr();trpr.append(OxmlElement('w:cantSplit'))
  d.add_paragraph()
-def image(d,name,width=6):d.add_picture(str(E/name),width=Inches(width))
+def image(d,name,width=6):
+ d.add_picture(str(E/name),width=Inches(width))
+ n=sum(pa.text.startswith('Figura ') for pa in d.paragraphs)+1
+ captions={'streamlit.png':'Dashboard Streamlit: servicio y presupuesto; última corrida local.', 'dashboard_mediciones.png':'Mediciones originales por ventana: latencia, calidad y drift de longitud.', 'presupuesto_alertas.png':'Consumo de presupuesto y reducción de notificaciones.', 'mlflow.png':'Panel MLflow: corrida original finalizada y parámetros registrados.', 'modelo.png':'Vista Modelo y drift: calidad y PSI por ventana.', 'incidentes.png':'Vista Incidentes y runbooks: aperturas, cierres y acciones registradas.', 'trazabilidad.png':'Vista Trazabilidad: resumen, MLflow y correlación local de spans.'}
+ p(d,f"Figura {n}. {captions.get(name,name)} Fuente: elaboración propia, laboratorio local; no tráfico bancario.")
 def save(d,name):d.save(O/(name+'.docx'))
 
 d=base('Monitorización y gobernanza del servicio de portafolios')
@@ -79,6 +83,16 @@ h(d,'Data drift y límites del diagnóstico')
 p(d,'Calculo PSI = suma de (q − p) × ln(q/p), usando proporciones suavizadas. El experimento repite ocho veces cada texto para desplazar la longitud. La alerta indica cambio de entrada, no prueba pérdida de capacidad predictiva. No cubre cambios semánticos de igual longitud, idioma, etiquetas ni concept drift. Para producción añadiría seguimiento de embeddings y calidad con etiquetas retrasadas, por segmentos y con tamaño muestral suficiente.')
 h(d,'Dashboard para decidir')
 p(d,'La vista Servicio presenta disponibilidad, p95, burn rate, presupuesto, tráfico y memoria. Modelo muestra precisión, recall, F1 y PSI. Incidentes permite examinar aperturas, cierres y pasos del runbook. Trazabilidad expone resumen, corrida MLflow y spans. Cuando el laboratorio está detenido, el tablero indica que muestra la última corrida; no presenta esos datos como tráfico vivo.')
+table(d,['Panel / refresco','Indicadores / condición crítica','Decisión del operador'],[
+['Servicio y presupuesto / 3 s','Disponibilidad, p95, burn, saldo, tráfico y RSS. Burn >2 en dos ventanas; presupuesto negativo evidencia incumplimiento.','Revisar RB01, distinguir latencia de disponibilidad y preservar el consumo histórico. RSS de 512 MB es planificación, sin alerta automática.'],
+['Modelo y drift / 3 s','Precisión, recall, F1 y PSI. Recall <0.75 o F1 <0.65; PSI >0.20; persistencia de dos ventanas.','RB02 revisa salida y etiquetas; RB03 aparta el lote alterado. No inferir concept drift de la longitud.'],
+['Incidentes y runbooks / 3 s','Estado, prioridad, apertura, cierre y seis etapas. Incidente abierto exige intervención.','Priorizar P1 antes de P2/P3, verificar dos ventanas sanas y escalar si no hay recuperación.'],
+['Trazabilidad / 3 s','Resumen, corrida MLflow y spans correlacionados por trace_id. No tiene umbral de color.','Reconstruir la solicitud y versión para auditar la causa sin exponer noticias ni claves.']])
+p(d,'La columna de condición crítica define cuándo intervenir; la interfaz actual no pinta automáticamente todos los umbrales en rojo. El refresco de tres segundos relee archivos: no genera tráfico ni nuevas mediciones. Distingo disponibilidad de la vista y frescura de los datos antes de decidir sobre continuidad del servicio.')
+page(d);h(d,'Dashboard: lectura de evidencia visual')
+image(d,'streamlit.png',5.8)
+image(d,'dashboard_mediciones.png',5.8)
+p(d,'Leo primero el estado actual y después la serie histórica. Cero alertas al cierre no borra las ventanas degradadas; la serie permite comprobar el daño y su recuperación.')
 page(d);h(d,'Runbooks de respuesta a incidentes')
 table(d,['Regla y disparador','Diagnóstico y corrección','Cierre y escalamiento'],[
 ['RB01 · P2 latencia / P1 disponibilidad. Burn >2 en dos ventanas consecutivas de 60 solicitudes.', 'Confirmar estado HTTP, p95, modo, revisión y hash; correlacionar trace_id. Restaurar mode=normal sin cambiar el modelo.', 'Cerrar tras dos ventanas sanas. Si persiste después de la corrección, mantener abierto, detener uso de la salida y escalar al operador.'],
@@ -119,6 +133,15 @@ p(d,'Para reproducir, instalar Python 3.12 y requirements.txt, ejecutar python -
 p(d,'Los valores de tiempo y consumo dependen del host. Los textos y las etiquetas son históricos; no se publicó tráfico de clientes. Los spans son instrumentación JSON local. La evidencia demuestra la ejecución de este laboratorio y no un despliegue productivo de observabilidad distribuida.')
 if (E/'streamlit.png').exists():image(d,'streamlit.png',6)
 page(d);h(d,'Captura del registro en MLflow');image(d,'mlflow.png',6);p(d,'Captura del panel local: corrida finalizada, identificador, parámetros y etiquetas de alcance. Las métricas completas por paso se conservan en los exportes. Las trazas locales se registran como artefactos JSONL, no en la pestaña Traces de MLflow.')
+page(d);h(d,'Recorrido del dashboard: cuatro vistas')
+p(d,'1. Servicio y presupuesto: consulto disponibilidad, p95, burn y saldo; su captura aparece en la sección de verificación. Uso el histórico para no confundir recuperación con cumplimiento agregado. Las cuatro vistas releen la última corrida cada tres segundos.')
+p(d,'2. Modelo y drift: comparo calidad con PSI. Una caída de recall afecta la confianza de la señal; un PSI alto requiere investigar la entrada, no ordenar reentrenamiento.')
+image(d,'modelo.png',6)
+page(d);h(d,'Recorrido: incidentes y trazabilidad')
+p(d,'3. Incidentes y runbooks: reviso prioridad, apertura, cierre y pasos. Exijo evidencia de verificación antes de dar por atendido el incidente.')
+image(d,'incidentes.png',6)
+p(d,'4. Trazabilidad: relaciono la corrida y los spans locales para reconstruir qué ocurrió. Las capturas se obtuvieron del tablero sin repetir el laboratorio.')
+image(d,'trazabilidad.png',6)
 save(d,'Evidencia_implementacion')
 
 d=base('Simulación de incidentes y ejecución de runbooks')

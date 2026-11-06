@@ -23,3 +23,6 @@
 - Se versiona la fuente de los tres reportes en scripts/build_reports.py. La exportación se reserva a la rama 06.
 - Se incorpora tabla autónoma de disparadores, prioridades, diagnóstico, corrección, cierre y escalamiento, y explicación de seis etapas. Criterio 3.
 - CI conserva las 9 pruebas y el verificador, pero deja de reejecutar el laboratorio para proteger las cifras publicadas. No se alteran modelo, umbral ni evidencia original.
+
+## Revisión · rama 02
+Dashboard documentado panel por panel, decisiones operativas y pies numerados. Capturas adicionales preparadas sin ejecutar el laboratorio; se incorporarán con los documentos en rama 06. Criterio 1.
