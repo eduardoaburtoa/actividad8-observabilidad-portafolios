@@ -26,3 +26,6 @@
 
 ## Revisión · rama 02
 Dashboard documentado panel por panel, decisiones operativas y pies numerados. Capturas adicionales preparadas sin ejecutar el laboratorio; se incorporarán con los documentos en rama 06. Criterio 1.
+
+## Revisión · rama 03
+Presupuesto de error explícito en los tres reportes: permitido, consumo, saldo, burn rate y reducción de ruido. Se conserva el incumplimiento agregado de latencia. Criterio 2; exportación diferida a rama 06.
