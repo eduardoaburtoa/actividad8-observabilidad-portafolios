@@ -1,0 +1,154 @@
+[
+  {
+    "time": 1793925651.1992698,
+    "session": "20261106T004049Z",
+    "incident": "INC-001",
+    "stage": "prepare",
+    "detail": "Inyección autorizada sólo en laboratorio; artefacto intacto."
+  },
+  {
+    "time": 1793925694.654469,
+    "session": "20261106T004049Z",
+    "incident": "INC-001",
+    "stage": "detect",
+    "rule": "latency",
+    "priority": "P2",
+    "step": 4
+  },
+  {
+    "time": 1793925694.655363,
+    "session": "20261106T004049Z",
+    "incident": "INC-001",
+    "stage": "diagnose",
+    "detail": "Comparar SLI, versión, hash y trazas; comprobar inyección y alcance."
+  },
+  {
+    "time": 1793925694.661825,
+    "session": "20261106T004049Z",
+    "incident": "INC-001",
+    "stage": "correct",
+    "action": "rollback_configuration",
+    "result": {
+      "previous": "latency",
+      "mode": "normal",
+      "revision": 2,
+      "model_sha256": "f48c7496d5a12bd15d535721e3e83c6ef895b1ae7eaccbe7f4f4c60705bb1916"
+    }
+  },
+  {
+    "time": 1793925694.945624,
+    "session": "20261106T004049Z",
+    "incident": "INC-001",
+    "stage": "verify",
+    "rule": "latency",
+    "detail": "Dos ventanas consecutivas recuperadas; no restituye presupuesto histórico consumido."
+  },
+  {
+    "time": 1793925694.949058,
+    "session": "20261106T004049Z",
+    "incident": "INC-001",
+    "stage": "postmortem",
+    "detail": "Registrar causa inyectada, detección, corrección, recuperación y límites; mantener aprobación humana para modelo nuevo."
+  },
+  {
+    "time": 1793925694.950793,
+    "session": "20261106T004049Z",
+    "incident": "INC-002",
+    "stage": "prepare",
+    "detail": "Inyección autorizada sólo en laboratorio; artefacto intacto."
+  },
+  {
+    "time": 1793925695.2445939,
+    "session": "20261106T004049Z",
+    "incident": "INC-002",
+    "stage": "detect",
+    "rule": "quality",
+    "priority": "P2",
+    "step": 8
+  },
+  {
+    "time": 1793925695.244909,
+    "session": "20261106T004049Z",
+    "incident": "INC-002",
+    "stage": "diagnose",
+    "detail": "Comparar SLI, versión, hash y trazas; comprobar inyección y alcance."
+  },
+  {
+    "time": 1793925695.246379,
+    "session": "20261106T004049Z",
+    "incident": "INC-002",
+    "stage": "correct",
+    "action": "rollback_configuration",
+    "result": {
+      "previous": "degradation",
+      "mode": "normal",
+      "revision": 4,
+      "model_sha256": "f48c7496d5a12bd15d535721e3e83c6ef895b1ae7eaccbe7f4f4c60705bb1916"
+    }
+  },
+  {
+    "time": 1793925695.5125408,
+    "session": "20261106T004049Z",
+    "incident": "INC-002",
+    "stage": "verify",
+    "rule": "quality",
+    "detail": "Dos ventanas consecutivas recuperadas; no restituye presupuesto histórico consumido."
+  },
+  {
+    "time": 1793925695.5161102,
+    "session": "20261106T004049Z",
+    "incident": "INC-002",
+    "stage": "postmortem",
+    "detail": "Registrar causa inyectada, detección, corrección, recuperación y límites; mantener aprobación humana para modelo nuevo."
+  },
+  {
+    "time": 1793925695.5177238,
+    "session": "20261106T004049Z",
+    "incident": "INC-003",
+    "stage": "prepare",
+    "detail": "Inyección autorizada sólo en laboratorio; artefacto intacto."
+  },
+  {
+    "time": 1793925695.813706,
+    "session": "20261106T004049Z",
+    "incident": "INC-003",
+    "stage": "detect",
+    "rule": "drift",
+    "priority": "P3",
+    "step": 12
+  },
+  {
+    "time": 1793925695.813866,
+    "session": "20261106T004049Z",
+    "incident": "INC-003",
+    "stage": "diagnose",
+    "detail": "Comparar SLI, versión, hash y trazas; comprobar inyección y alcance."
+  },
+  {
+    "time": 1793925695.813961,
+    "session": "20261106T004049Z",
+    "incident": "INC-003",
+    "stage": "correct",
+    "action": "quarantine_and_escalate",
+    "result": {
+      "incident": "INC-003",
+      "decision": "cuarentena del lote simulado y restauración de flujo de referencia; revisión de datos antes de reentrenar",
+      "retraining_executed": false
+    }
+  },
+  {
+    "time": 1793925696.074583,
+    "session": "20261106T004049Z",
+    "incident": "INC-003",
+    "stage": "verify",
+    "rule": "drift",
+    "detail": "Dos ventanas consecutivas recuperadas; no restituye presupuesto histórico consumido."
+  },
+  {
+    "time": 1793925696.078086,
+    "session": "20261106T004049Z",
+    "incident": "INC-003",
+    "stage": "postmortem",
+    "detail": "Registrar causa inyectada, detección, corrección, recuperación y límites; mantener aprobación humana para modelo nuevo."
+  }
+]

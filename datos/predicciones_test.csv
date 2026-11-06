@@ -1,0 +1,453 @@
+id,texto,etiqueta,y,Logistica,SVM_calibrada
+FPB0003,"In the third quarter of 2010 , net sales increased by 5.2 % to EUR 205.5 mn , and operating profit by 34.9 % to EUR 23.5 mn .",positive,0,0.24831270943857994,0.06192377723037599
+FPB0011,"Its board of directors will propose a dividend of EUR0 .12 per share for 2010 , up from the EUR0 .08 per share paid in 2009 .",positive,0,0.07176474949402425,0.005976110339991834
+FPB0016,Nordea Group 's operating profit increased in 2010 by 18 percent year-on-year to 3.64 billion euros and total revenue by 3 percent to 9.33 billion euros .,positive,0,0.18764152187806526,0.1415109579748058
+FPB0018,"Operating profit for the three-month period increased from EUR1 .2 m , while revenue increased from EUR20 .2 m , as compared to the corresponding period in 2005 .",positive,0,0.17028048500975917,0.06548702881612194
+FPB0020,"The Lithuanian beer market made up 14.41 million liters in January , a rise of 0.8 percent from the year-earlier figure , the Lithuanian Brewers ' Association reporting citing the results from its members .",positive,0,0.1357410460538481,0.054307652706717446
+FPB0022,"The fair value of the property portfolio doubled as a result of the Kapiteeli acquisition and totalled EUR 2,686.2 1,259.7 million .",positive,0,0.0765569112382743,0.024599108522069025
+FPB0023,10 February 2011 - Finnish media company Sanoma Oyj HEL : SAA1V said yesterday its 2010 net profit almost tripled to EUR297 .3 m from EUR107 .1 m for 2009 and announced a proposal for a raised payout .,positive,0,0.147782756052152,0.06273403964118969
+FPB0030,Sales increased due to growing market rates and increased operations .,positive,0,0.09332029698094454,0.020139858052227174
+FPB0052,"Both operating profit and turnover for the three-month period increased , respectively from EUR0 .9 m and EUR8 .3 m , as compared to the corresponding period in 2005 .",positive,0,0.11870355616024832,0.028032279509791397
+FPB0056,"However , Biohit estimates its total net sales will continue to grow in 2009 , and that favourable trends in net sales will lead to a profit in 2009 .",positive,0,0.16904345911252788,0.21503886448874723
+FPB0058,"In Lithuania , operating profit rose to EUR 190,000 from EUR 70,000 in the corresponding period in 2005 .",positive,0,0.12202948286051452,0.008687256584689019
+FPB0065,Operating profit increased by 145.1 % to EUR 8.3 mn from EUR 3.4 mn .,positive,0,0.2731044771058492,0.07531696655073655
+FPB0073,"The company 's consolidated operating profit amounted to EUR 15.86 mn , up from EUR 4.14 mn year-on-year .",positive,0,0.2346535081643895,0.06441287400963534
+FPB0074,The Department Store Division reported an increase in sales of 4 per cent .,positive,0,0.10566856298880703,0.04315366780938976
+FPB0077,"The major breweries increased their domestic beer sales by 4.5 per cent last year , to 256.88 million litres from 245.92 million litres in 2004 .",positive,0,0.14713557910303302,0.08337284651697068
+FPB0085,"According to HKScan Finland , the plan is to increase J+ñrvi-Suomen Portti 's net sales to EUR 80mn to EUR 100mn .",positive,0,0.10556694853197024,0.03016615806949459
+FPB0092,"Both operating profit and net sales for the 12-month period increased , respectively from EUR4 .7 m and EUR26 .7 m , as compared to 2004 .",positive,0,0.10167542669844443,0.01427417367532415
+FPB0102,"Both operating profit and turnover for the six-month period increased , respectively , from EUR17 .6 m and EUR1149 .9 m , as compared to the corresponding period in 2007 .",positive,0,0.10878462800131851,0.019874733531949074
+FPB0107,Diluted earnings per share ( EPS ) rose to EUR 0.29 from EUR 0.05 .,positive,0,0.14696786801333686,0.043953104740658895
+FPB0109,Diluted earnings per share ( EPS ) rose to EUR 1.05 from EUR 0.64 .,positive,0,0.14797187641746679,0.04957309031941074
+FPB0110,Diluted earnings per share ( EPS ) rose to EUR 3.68 from EUR 0.50 .,positive,0,0.12715529261553582,0.031048939137202487
+FPB0113,"EPS from continuing operations came in at 0.30 eur , up from 0.17 .",positive,0,0.09942747112015154,0.01714121747172437
+FPB0129,"However , net sales in 2010 are seen to have grown to EUR598 .3 m from EUR582 .3 m in 2009 .",positive,0,0.17397526909267108,0.11390875903857323
+FPB0130,"However , sales returned to growth in April-June 2010 , CEO Pekka Eloholma said .",positive,0,0.11927032001631609,0.0642667729667527
+FPB0135,"In Q1 of 2010 , Bank of +àland 's net interest income increased from EUR 9.1 mn to EUR 9.7 mn .",positive,0,0.13688147742699677,0.030368798346326397
+FPB0151,"Metso expects its net sales to increase by about 10 % in 2008 , at comparable exchange rates .",positive,0,0.11634160905355118,0.028913625241495485
+FPB0155,Net sales of the Vegetable Oil Business rose to EUR 10.6 mn from EUR 10.1 mn .,positive,0,0.13456009790994455,0.014731375754036241
+FPB0162,Operating profit rose to EUR 103.4 mn from EUR 23.2 in the corresponding period in 2006 .,positive,0,0.15646760433051826,0.014243256039640863
+FPB0163,Operating profit rose to EUR 13.5 mn from EUR 9.7 mn in the corresponding period in 2006 .,positive,0,0.22275917410718737,0.017661921694334514
+FPB0169,Operating profit rose to EUR 9.2 mn from EUR 6.8 mn in the corresponding period in 2007 .,positive,0,0.3105822437619762,0.05078791039712982
+FPB0170,Operating profit rose to EUR2 .4 m from EUR1 .6 m year earlier .,positive,0,0.13068598097009443,0.020325845360229994
+FPB0177,Orders received grew by 55 % year-on-year to EUR732m .,positive,0,0.17543508480512587,0.141840717292529
+FPB0179,Passenger volumes rose by 8.4 % in the accounting period .,positive,0,0.11314842185736919,0.041859026585907594
+FPB0187,"Profit for the period was EUR 9.8 mn , up from EUR 6.0 mn in 2004 .",positive,0,0.22261051589368927,0.05863259508178761
+FPB0198,The company expects its net sales in 2008 to increase 5-10 % from 2007 .,positive,0,0.17790777492336676,0.13838107758657137
+FPB0203,"The Helsinki-based company , which also owns the Salomon , Atomic and Suunto brands , said net profit rose 15 percent in the three months through Dec. 31 to ( x20ac ) 47 million ( $ 61US million ) , from ( x20ac ) 40.8 million a year earlier .",positive,0,0.200351155079592,0.2392230803814018
+FPB0206,The stock rose for a third day on Tuesday bringing its three-day rise to GBX10 .50 or 1.8 % .,positive,0,0.07715878009677733,0.015604035996181242
+FPB0207,The transactions would increase earnings per share in the first quarter by some EUR0 .28 .,positive,0,0.18111022745353414,0.1585723425988582
+FPB0214,Commission income rose by 25.7 % to EUR 16.1 mn from EUR 12.8 mn in 2004 .,positive,0,0.18627541984661336,0.11021354309704275
+FPB0223,"Finnish silicon wafer technology company Okmetic Oyj OMX Helsinki : OKM1V reported on Thursday 30 October an operating profit of EUR7 .4 m for January-September 2008 , up from EUR6 .1 m in the corresponding period in 2007 .",positive,0,0.16940454867360846,0.10182155007183945
+FPB0234,"Nevertheless , its market share rose to 49.14 percent from 48.51 percent a year earlier .",positive,0,0.13838886870032666,0.03282880931847037
+FPB0235,"October-December sales were 302 mln eur , or a 25.3 pct increase year on year .",positive,0,0.15242019977750043,0.12820685223802178
+FPB0236,"Olvi , which controls a 94 percent stake in Ragutis through A. Le Coq , said in its annual report published earlier this year that the Lithuanian brewery 's sales reached 15.04 million euros last year , a rise of 20.4 percent from 12.49 million euros in 2004 .",positive,0,0.1630957691072311,0.14204363083280758
+FPB0237,Olvi expects sales and market share to increase in the first quarter of 2010 .,positive,0,0.16373694899829766,0.05316425565634523
+FPB0238,Operating profit increased to EUR 14.0 mn from EUR 4.9 mn in the corresponding period in 2005 .,positive,0,0.35435740550631945,0.17150148547965216
+FPB0252,The company 's market share is continued to increase further .,positive,0,0.06853747588466887,0.012218279925328148
+FPB0255,"The earnings per share for the quarter came in at 0.25 eur , up from the 0.20 eur of the same quarter a year earlier .",positive,0,0.1707961073942661,0.09911042053527169
+FPB0259,The pretax profit of the group 's life insurance business increased to EUR 36 million from EUR 27 million .,positive,0,0.1668657819853037,0.06940240317042481
+FPB0260,The pretax profit of the group 's life insurance business increased to EUR36m from EUR27m .,positive,0,0.09917909596045218,0.01954292754499899
+FPB0264,Finnish Talvivaara Mining Co HEL : TLV1V said Thursday it had picked BofA Merrill Lynch and JPMorgan NYSE : JPM as joint bookrunners of its planned issue of convertible notes worth up to EUR250m USD332m .,neutral,0,0.070792898531923,0.00974719828476329
+FPB0269,"German Commerzbank AG 's Hamburg Branch and US JP Morgan ( NYSE : JPM ) participated as arrangers , and Dutch ING ( AMS : INGA ) as co-arranger .",neutral,0,0.07467743051798736,0.03411903607444963
+FPB0271,It has some 30 offices worldwide and more than 90 pct of its net sales are generated outside Finland .,neutral,0,0.09236955814198566,0.03437915212062489
+FPB0273,Nokia Messaging 1.1 enables customers to receive e-mails from up to 10 e-mail accounts on their mobile phone supporting all POP or IMAP e-mail services .,neutral,0,0.07559829581557874,0.014997221687702053
+FPB0274,SHARE REPURCHASE 11.01.2008 In the Helsinki Stock Exchange On behalf of Sampo plc Danske Bank A-S Helsinki Branch,neutral,0,0.12277576814283062,0.08311085869547875
+FPB0288,The phones are targeted at first time users in growth markets .,neutral,0,0.08878767537172014,0.025129195351296946
+FPB0289,Tielinja generated net sales of 7.5 mln euro $ 9.6 mln in 2005 .,neutral,0,0.19183485328610236,0.07944481972622709
+FPB0291,"Under the rental agreement , Stockmann was committed to invest in the building of a bridge over the Gogol Street or build an underground tunnel for crossing the street by 2004 .",neutral,0,0.08654720621960761,0.023258788153120488
+FPB0296,"HELSINKI ( AFX ) - Nokian Tyres reported a fourth quarter pretax profit of 61.5 mln eur , up from 48.6 mln on the back of strong sales .",positive,0,0.1515200678088667,0.060904680209387774
+FPB0308,"The offer of some 30 million shares aimed to raise more than x20ac 500 million US$ 640 million , was expected to be completed by Oct. 9 , Outokumpu said .",neutral,0,0.117421045681973,0.07861836596176801
+FPB0318,"The six breweries recorded a 5.2 percent growth in domestic beer sales last year to 270.21 million liters , from 256.88 million liters sold in 2005 .",positive,0,0.18306392783750086,0.18375898839076524
+FPB0328,"`` The number of collection errors fell considerably , and operations speeded up .",positive,0,0.0920354490435686,0.07891071223264016
+FPB0331,8 May 2009 - Finnish liquid handling products and diagnostic test systems maker Biohit Oyj ( HEL : BIOBV ) said today ( 8 May 2009 ) its net loss narrowed to EUR0 .1 m ( USD0 .14 m ) for the first quarter of 2009 from EUR0 .4 m for the same period of 2008 .,positive,0,0.2768575927405037,0.357117520342231
+FPB0339,20 October 2010 - Finnish metal products company Componenta Oyj HEL : CTH1V said yesterday that its net loss narrowed to EUR7m for the first nine months of 2010 from EUR23 .3 m for the same period of 2009 .,positive,0,0.14258819582307736,0.030468615637657
+FPB0346,Unit costs for flight operations fell by 6.4 percent .,positive,0,0.27601789736381044,0.8882203709464348
+FPB0347,The loss for the third quarter of 2007 was EUR 0.3 mn smaller than the loss of the second quarter of 2007 .,positive,0,0.31035655012191044,0.27620221629551606
+FPB0360,"Profit before taxes decreased by 9 % to EUR 187.8 mn in the first nine months of 2008 , compared to EUR 207.1 mn a year earlier .",negative,1,0.6841961533070788,0.9877680111543663
+FPB0374,Salonen added that data shows producers ' pulp inventories in North America are declining . ',negative,1,0.08880691885049379,0.048078157828583684
+FPB0377,"Turnover surged to EUR61 .8 m from EUR47 .6 m due to increasing service demand , especially in the third quarter , and the overall growth of its business .",positive,0,0.17619136791625967,0.2167979243205588
+FPB0382,Cash Flow from Operations for the most recent quarter also reached a eight year low .,negative,1,0.10440045766117453,0.04221953796316754
+FPB0388,"Tiimari , the Finnish retailer , reported to have geenrated quarterly revenues totalling EUR 1.3 mn in the 4th quarter 2009 , up from EUR 0.3 mn loss in 2008 .",positive,0,0.3117205892504744,0.3355292529594572
+FPB0394,"9 September 2010 - Finnish stationery and gift retailer Tiimari HEL : TII1V said today its net sales rose by 2 % year-on-year to EUR5 .7 m in August 2010 , driven by growth in Finland , while demand in the Baltics remained weak .",positive,0,0.16854543458017157,0.16139979100269114
+FPB0396,"For example , net sales increased by 5.9 % from the first quarter , and EBITDA increased from a negative EUR 0.2 mn in the first quarter of 2009 .",positive,0,0.2652033794951105,0.20443948932019443
+FPB0399,` By separating side businesses we will be able to faster expand and develop Tapro retail network .,positive,0,0.06587601628328611,0.01647931431036673
+FPB0400,"According to Viking Line 's Managing Director , Nils-Erik Eklund , the company 's Board of Directors is very satisfied with Viking Line 's performance .",positive,0,0.06765881775804664,0.018982958829536996
+FPB0401,Combining this deep domain expertise with our Application Service Management ASM and outsourcing service offerings has now proved to be a winning combination .,positive,0,0.06358086573187899,0.01808857299556335
+FPB0402,"Finnish construction company YIT Oyj said on November 13 , 2007 it won a 70 mln euro $ 102.8 mln contract to construct the new office building for local property company Tapiola Real Estate Oy .",positive,0,0.10320200996247045,0.029486512036675693
+FPB0403,Major Order in India Comptel Corporation has received a significant long-term order for mediation and provisioning solutions being used by a leading operator in India .,positive,0,0.0795363877155409,0.030311086648328156
+FPB0404,Olvi has posted a strong set of figures for the first six months of this year .,positive,0,0.12223453651427223,0.06803938939113775
+FPB0406,Our standardised services have met with a positive reception among our customers as well as at Itella .,positive,0,0.0523671560906911,0.009320339574372581
+FPB0409,"Ragutis , which is based in Lithuania 's second-largest city Kaunas , boosted its sales last year 22.3 per cent to 36.4 million liters .",positive,0,0.14338117949936754,0.12557559918154806
+FPB0410,"Raisio 's bid to buy Glisten is a `` win-win '' deal for both companies , the chairman of the UK snacks firm told just-food today 10 February .",positive,0,0.06439604687826063,0.016577430122878014
+FPB0416,Finnish construction group Lemmink+ñinen has been awarded two road building contracts by the Lithuanian transport administration .,positive,0,0.07461935201370293,0.017103097777297613
+FPB0417,"Finnish flexible packaging manufacturer Suominen Corporation reports net sales of EUR 54.5 mn in the first quarter of 2008 , compared with EUR 54.3 mn a year earlier .",positive,0,0.3638705799732443,0.5242470493229326
+FPB0436,"( ADP News ) - Oct 31 , 2008 - Finnish food company Raisio Oyj ( OMX : RAIVV ) said today that its net profit jumped to EUR 16.4 million ( USD 20.9 m ) for the first nine months of 2008 from EUR 1.1 million for the same period of 2",positive,0,0.3001064317942218,0.24420685665007671
+FPB0439,Pretax profit jumped to EUR 21.9 million from EUR 3.1 million .,positive,0,0.2671915149077671,0.24199227975195384
+FPB0446,The acquisition will have an immediate positive impact on Aspocomp 's financial result .,positive,0,0.0702799803907374,0.02146772574386735
+FPB0447,"The Australian company Mirabela Nickel has awarded Outokumpu Technology a contract for grinding technology for its nickel sulfide project in Bahia State , Brazil .",positive,0,0.0780401918802112,0.02451005485814482
+FPB0451,This resulted in improved sales figures in Sweden .,positive,0,0.08744052997976083,0.01465042268768344
+FPB0453,`` Demand for sports equipment was good in 2005 .,positive,0,0.13713229711012942,0.18239626569864464
+FPB0455,"Finnish airline Finnair has won a deal with the UK public sector to be the official airline for flights from London Heathrow to Osaka in Japan , as well as flights between Manchester in the UK and Helsinki in Finland .",positive,0,0.11595838620124574,0.13507746163050496
+FPB0456,Finnish Cargotec 's Kalmar has received a significant order from the US Department of Defense .,positive,0,0.11198826594880919,0.08485503947401452
+FPB0461,"Finnish software developer Basware Oyj said on November 30 , 2006 its U.S. subsidiary Basware , Inc. won an order to provide software for contract lifecycle management to an unnamed U.S. medical technology company .",positive,0,0.0891360048761182,0.02598904424706959
+FPB0466,Operating profit improved by 44.0 % to ER 4.7 mn from EUR 3.3 mn in 2004 .,positive,0,0.30789768719497784,0.16345473813959863
+FPB0469,Productional situation has now improved .,positive,0,0.09389631184168143,0.048559600421488186
+FPB0473,"The company , which makes garden tools , scissors and other consumer goods , said earnings were boosted by 6.9 mln eur of income it received from its 16.7 pct shareholding in Finnish engineering group Wartsila .",positive,0,0.10276954536965896,0.031874465668565645
+FPB0487,"Aldata Solution Oyj Bertrand Sciard President and CEO Further information : Aldata Solution Oyj , Bertrand Sciard , President and CEO , tel. +33 1 46 48 28 00 Aldata 100 % Retail-Wholesale At Aldata 100 % of our business is dedicated to retail and wholesale business improvement .",neutral,0,0.06894172644380582,0.021055294422042996
+FPB0500,"Headquartered in this city , the company is nearly 75 years old and focuses on science-based innovation and technology for environmental measurement .",neutral,0,0.0585209174244099,0.011461069824648824
+FPB0504,Le Lay succeeds Walter G++nter and will be based in Finland .,neutral,0,0.060456809124395744,0.014251017932743255
+FPB0505,"Lemminkainen Infra Oy 's subsidiary Lemminkainen Sverige AB will perform the construction work , which is expected to start in early 2011 and to be completed in the summer of 2013 .",neutral,0,0.057955636564619446,0.006975437299158564
+FPB0512,The Bank is also examining the benefits of transferring the Swedish business to operate as a branch office so that the operations would be governed by Finland 's laws .,neutral,0,0.06338168942131182,0.015435694459377062
+FPB0514,"The guidance has been set at 90 basis points over mid-swaps , the report said .",neutral,0,0.07875756669559865,0.02521478118212567
+FPB0516,"The inventors are Bylander Johan , Ponten Fredrik and Lundberg Jorgen .",neutral,0,0.05996393311238941,0.009110454009578979
+FPB0519,The issuer is solely responsible for the content of this announcement .,neutral,0,0.06277508722485661,0.010821388960964086
+FPB0524,The Swedish subsidiary holds 1.0 % net smelter return `` NSR '' royalties over two advanced copper projects in northern Sweden - the Viscaria and Adak Projects - being developed by Avalon Minerals Ltd. ASX : AVI .,neutral,0,0.08041976234599624,0.02010547284699263
+FPB0528,`` Directors and shareholders alike should ask why these practices were allowed to continue . '',neutral,0,0.06670046759598514,0.016001182528363828
+FPB0530,`` They want my credit card info and my personal details .,neutral,0,0.0657987861164016,0.01643168143392226
+FPB0541,"An of the invention , released by the Patent Office , said : `` The chambers are pressurized .",neutral,0,0.07073597194623767,0.01674059683241199
+FPB0546,"CapMan has four investment areas ( CapMan Buyout , CapMan Technology , CapMan Life Science and CapMan Real Estate ) , and each of them has a dedicated team .",neutral,0,0.06846430928712824,0.015079661578467934
+FPB0551,"Complete name of shareholder : Otto Henrik Bernhard Nyberg For further information , please contact Maija-Liisa Friman , CEO , tel. +358 9 7597 0711 .",neutral,0,0.07145004600105209,0.014915420231002266
+FPB0552,Completion of the transaction is subject to a final agreement and a Due Diligence process .,neutral,0,0.06027655490823168,0.013397177640101001
+FPB0554,Dragonfly Love is another video shot from start to finish using the Nokia N8 .,neutral,0,0.06970059999338399,0.012469900151343387
+FPB0555,"Elcoteq 's Electronics Manufacturing Services ( EMS ) Business Segment serves customers globally in Engineering , Manufacturing and Fulfillment services .",neutral,0,0.06541920925309247,0.019577482490595387
+FPB0561,"Harold W. Young is an independent broker working closely with several retailers including Ahold USA , Market Basket , CVS , BJ 's Wholesale Club , Hannaford and Cumberland Farms .",neutral,0,0.05217867861943737,0.00603291590910397
+FPB0566,"It is a member of the OneWorld alliance , which includes American Airlines and British Airways .",neutral,0,0.051159997383275216,0.00945462317733544
+FPB0574,"LKAB , headquartered in Lulea , Sweden , is a high-tech mining company producing upgraded iron ore products for the steel industry .",neutral,0,0.06519372602702016,0.011787644914985842
+FPB0580,"Oka specialises in new construction , renovation work of residential and non-residential building as well as premises for industrial and logistical use .",neutral,0,0.05888871706405615,0.011799482840648296
+FPB0583,Pertti Ervi is independent from the Company and its major shareholders .,neutral,0,0.05754567384097034,0.009921883860737
+FPB0586,"Prothious Engineering ( www.prothious.com ) employs more than 1,000 and has a large portfolio of projects and an annual detailing capacity of more than 100,000 tonnes .",neutral,0,0.0670767620564021,0.017984733322352682
+FPB0589,"RFID ( Radio Frequency Identification ) is a method of so-called intelligent transport , whereby information can be read and saved remotely .",neutral,0,0.0558949403556732,0.009012501003223277
+FPB0606,The commission said the hydrogen peroxide and PBS market was worth about 470 million euros in 2000 .,neutral,0,0.09629895030879837,0.043396729238983855
+FPB0609,The company specialises in temporary electrification and heating at construction sites .,neutral,0,0.07054160146882726,0.02101802593435992
+FPB0610,"The dividend is payable on February 1 , 2010 to shareholders of record on January 19 , 2010 .",neutral,0,0.06902731466965147,0.011977502486989783
+FPB0613,The Extraordinary General Meeting is expected to take place no later than 18 February 2011 .,neutral,0,0.06623373162412076,0.014096367333585255
+FPB0619,"The Marubeni Group focuses on creating `` value chain '' from upstream to downstream , encompassing a wide variety of business fields , including oil & gas , metals , mineral resources , foods , pulp & paper and chemicals , among others .",neutral,0,0.08126640727447702,0.03233421216753878
+FPB0623,The project is expected to be completed in 2009 .,neutral,0,0.0630564118541183,0.013008193574582647
+FPB0628,The server is responsible for managing devices and user accounts and a desktop client application enables remote access to the mobile phones .,neutral,0,0.06300272877035204,0.01503192242893703
+FPB0631,"The subsidiary will be responsible for filter sales , local assembly of filters and after market services in China .",neutral,0,0.07556256773747795,0.03076441131556727
+FPB0633,The trade is in accordance with the agreement announced on 26 March 2008 .,neutral,0,0.07913050934784807,0.024727500624039892
+FPB0642,"Viking will pay EUR 130 million for the new ship , which will be completed in January 2008 .",neutral,0,0.09325636058128958,0.03850917715661761
+FPB0643,ASSA ABLOY Kaupthing Bank gave a ` neutral ' recommendation and a share price target of 174 crowns $ 24.7 - 19 euro on Swedish lock maker Assa Abloy AB .,neutral,0,0.0901951444397675,0.031341426020665676
+FPB0648,A PLUMBING business has announced it is sponsoring a professional darts player .,neutral,0,0.05938653218304885,0.01084608201659096
+FPB0651,Aspo has also investigated the sales opportunities of Kaukomarkkinat 's electronics business .,neutral,0,0.08710531192141228,0.04327035710756381
+FPB0659,From Merisatama to the far corners of the world Asfaltti Osakeyhti+Â Lemmink+ñinen was established in 1910 by a group of master builders in Helsinki as a specialist business and subcontractor .,neutral,0,0.09819042246067353,0.05609445714805405
+FPB0666,"It is part of the development of the world-class magnetite deposit at Karara , which has the known potential for over 30 million metric tons of annual processing of magnetite over its estimated 30-year life .",neutral,0,0.06957191357219066,0.02038131544122064
+FPB0673,Ms Laakso will be responsible for HKScan 's HR functions and for their development in all of the Group ` smarket areas .,neutral,0,0.04945809177329905,0.007120595280549845
+FPB0678,"Outotec 's scope of delivery includes design , basic engineering and supply of proprietary equipment for a sinter plant with a grate area of 496 square meters .",neutral,0,0.06606761710880887,0.015219243887752322
+FPB0682,Quality chargers under CHARGZ brand are sold in selected retail stores and other sales locations world-wide .,neutral,0,0.07867195364639425,0.025160592984065398
+FPB0684,"SCOPI Chief Business Excellence Officer , Eng .",neutral,0,0.06726355966791585,0.015543265321603604
+FPB0685,Subject-matter of the invention furthermore is the use of the cyclone for separating partly molten particles . '',neutral,0,0.053868576893546696,0.008433829739039072
+FPB0694,"The company is owned by the State of Finland and the European Aeronautic Defense and Space Company EADS N.V. Tekla is an international software company that provides solutions for building and construction , energy distribution and municipalities .",neutral,0,0.05056673738573007,0.008333255331082522
+FPB0697,The corrected chapter is in its entirety below .,neutral,0,0.07175153055057899,0.023028735774602262
+FPB0698,The deal was worth about EUR 1.2 mn .,neutral,0,0.10281405488179896,0.02037430094543607
+FPB0702,The number of customers is one of the most important parameters in determining the price of electricity networks .,neutral,0,0.05538736374347026,0.010427349910235506
+FPB0703,The order was valued at over EUR15m .,neutral,0,0.07173590262964122,0.019672495779571343
+FPB0704,The order was valued at USD12 .2 m.,neutral,0,0.07367482976708196,0.02128248854225576
+FPB0713,The total project duration is three years and it is valued at some EUR11 .5 m.,neutral,0,0.05048554260842446,0.008838942849555028
+FPB0716,"This implementation is very important to the operator , since it is about to launch its Fixed-to-Mobile convergence service in Brazil see Brazil : 8 May 2006 : .",neutral,0,0.06252048729297961,0.01260769527426192
+FPB0720,Timo Penttila has been appointed new manager responsible for the asset management of Nordea 's institutional customers in Finland .,neutral,0,0.07617027162987158,0.020282496978995593
+FPB0728,"Furthermore , sales of new passenger cars and light commercial vehicles in the country declined by 5.4 % year-on-year last month .",negative,1,0.1815176996622314,0.34656872647184356
+FPB0738,"OUTOTEC OYJ PRESS RELEASE , FEBRUARY 19 , 2008 AT 11.00 AM Outotec has won two large minerals processing technology orders from Mirabela Mineracao do Brasil Ltda , Brazil and from Cumerio Med JSCo , Bulgaria .",positive,0,0.09993229473903698,0.044585758133715896
+FPB0739,"Outotec said it won new orders worth 492.9 mln eur during the quarter , compared with 240.4 mln eur a year earlier .",positive,0,0.22554615932451455,0.3883965316193369
+FPB0741,"The brokerage said 2006 has seen a ` true turning point ' in European steel base prices , with better pricing seen carrying through the second quarter of 2006 .",positive,0,0.11493472713268621,0.06324248560707822
+FPB0747,"Vaahto Pulp & Paper , of Finnish Vaahto Group , has been awarded an order to renovate Finnish-Swedish forest industry company Stora Enso 's paperboard machine at the Ingerois Board Mill in Finland .",positive,0,0.0757292318023094,0.01325916299122433
+FPB0754,"Finland 's leading metals group Outokumpu said its fourth-quarter net profit more than tripled on the back of strong global demand for stainless steel , soaring base metal prices and proceeds from the sale of its technology unit .",positive,0,0.14337569201319686,0.15042188435328066
+FPB0760,"The add-on order contains , among others , control valves and instrumentation as well as complete mill engineering and electrification with Metso drive controls .",neutral,0,0.04913578903100506,0.008658705988743505
+FPB0764,"France T+®l+®com spent more time studying TeliaSonera than other potential takeover targets because it has a shareholder that wants to sell , Pellissier said .",neutral,0,0.104341537825451,0.09164470322892475
+FPB0771,"Patrick Jeambar will also continue being responsible for Innovation and Health , safety and environment HSEA functions of Ahlstrom Corporation .",neutral,0,0.05838460603421329,0.01325107012311884
+FPB0773,"The Costanza light , with an aluminum base and washable shade , comes in white , pistachio , orange , blue and red .",neutral,0,0.06705125760408881,0.01592752517534127
+FPB0778,"Sales climbed 19.2 pct to 1.002 bln eur , surpassing the 953 mln eur consensus figure .",positive,0,0.15971056103204279,0.14497575656782863
+FPB0781,"Cooper SH , the UK distributor for lift equipment manufacturer Konecranes , won the five-year deal which involves low maintenance and fuel saving technologies .",positive,0,0.08499609800067212,0.03325457332504406
+FPB0788,"Before Kemira 's installation NordAlu was producing 3,500 tons of liquid and solid aluminum waste per year .",neutral,0,0.09482127059176321,0.03703506216907463
+FPB0790,- Counter your competitor 's strengths and target their weaknesses .,neutral,0,0.0699480345033312,0.021507016691645706
+FPB0796,"ADP News - Feb 13 , 2009 - Finnish retailer Kesko Oyj HEL : KESBV said today its total sales , excluding value added tax VAT , stood at EUR 661.3 million USD 853.1 m in January 2009 , down 15.2 % year-on-yea",negative,1,0.3106658608507294,0.6352022835635837
+FPB0808,Return on investment was 16.6 % compared to 15.8 % in 2004 .,positive,0,0.17868814967843477,0.19251468696733764
+FPB0809,The company moved to an operating profit of EUR10 .9 m versus an operating loss of EUR15 .3 m. It also turned to EPS of EUR0 .08 versus loss per share of EUR0 .04 .,positive,0,0.16804592859855325,0.08544683290289475
+FPB0812,Viking Line manages well with its current ferries .,positive,0,0.07846567537326085,0.025195662145514986
+FPB0817,"H+Ñkan Dahlstr+Âm , head of mobility services at TeliaSonera , has forecast that mobile data volume on the TeliaSonera network in Sweden will rise eight-fold to 200,000 TB by 2014 .",positive,0,0.07197056637019775,0.01853335356265197
+FPB0819,Finnish elevators and escalators maker KONE Corporation said on Tuesday ( 18 March ) that it has received a major order from Sir Robert McAlpine to supply all elevators and escalators for the Watermark Place project in the City of London .,positive,0,0.127255705180901,0.13978842194710964
+FPB0821,"In 2008 , the deal is likely to bring savings of EUR 20mn-25mn .",positive,0,0.11636493426930675,0.06843755067928252
+FPB0826,Incap Contract Manufacturing Services Private Limited has inked agreements with six new customers in India .,positive,0,0.060212363611893006,0.010362034386360918
+FPB0836,Net profit was 35.5 mln compared with 29.8 mln .,positive,0,0.23313409610642225,0.3051720075742144
+FPB0838,"Operating loss was EUR 179mn , compared to a loss of EUR 188mn in the second quarter of 2009 .",positive,0,0.5256218145566464,0.8348653264750406
+FPB0840,"Pre-tax loss totaled EUR 0.3 mn , compared to a loss of EUR 2.2 mn in the first quarter of 2005 .",positive,0,0.46276627550534666,0.5869459070342972
+FPB0844,"Re-use back into PET bottles has also steadily increased and the rate of use in strapping tape has picked up again after a dip in 2005 , Petcore said previously .",positive,0,0.07225430907233506,0.016809565177480435
+FPB0847,"Systeemitiimi 's sales and project resources will also be strengthened , director Paul Skogberg said .",positive,0,0.07290288605070423,0.039464041262820805
+FPB0848,The actions are expected to deliver annual cost savings of some EUR15-20m .,positive,0,0.0589307332708486,0.006671678288006689
+FPB0852,"The fourth quarter saw Rapala swing back to a pretax profit of 1.5 mln eur from a year earlier loss of 1.2 mln on the back of a 30 pct uplift in sales to 44.8 mln eur , and a stronger performance in North America .",positive,0,0.26860313719133444,0.3645871860590412
+FPB0858,28 October 2010 - Finnish wood products technology supplier Raute Oyj HEL : RUTAV said today it swung to a net profit of EUR3m for the first nine months of 2010 versus a net loss of EUR5 .2 m for the same period a year earlier .,positive,0,0.25636303642868075,0.24699363917268102
+FPB0865,"Finnish dental care group Oral Hammaslaakarit Oyj posted a total net profit of 849,000 euro $ 1.1 mln in the first nine months of 2006 versus a net loss of 331,000 euro $ 421,000 in the same period of 2005 .",positive,0,0.23998228003856906,0.1901644623004662
+FPB0874,"Mformation and Nokia noted they have established interoperability agreements that cover commercially proven , standards-based management of mobile devices , as well as mobile device security and mobile application management .",positive,0,0.06658055712941416,0.02563339909548554
+FPB0877,Operating profit totaled EUR 17.7 mn compared to EUR 17.6 mn in the corresponding period in 2007 .,positive,0,0.44626847570165706,0.6577641428754967
+FPB0879,Profit for the period was EUR 15.6 mn compared to EUR 14.1 mn in 2007 .,positive,0,0.46467265791768253,0.6917409499248325
+FPB0885,"The company 's net profit amounted to EE 55.5 mn , which was 36 % more than in 2004 .",positive,0,0.25961025239136365,0.49695495840630954
+FPB0891,"The share capital of Alma Media Corporation (business ID 1944757-4)is EUR 45,031,513.80 and it is divided into 75,052,523 shares .",neutral,0,0.06034343039806569,0.012970661880317626
+FPB0900,"BasWare is headquartered in Espoo , Finland .",neutral,0,0.05756916458150926,0.009116375026220395
+FPB0901,"The store is located in Poznan in a shopping center named Pestka , the company added .",neutral,0,0.06244469218198085,0.014272706606339806
+FPB0909,"Finnish IT consultancy Satama Interactive Oyj said on November 13 , 2006 that Jarmo Lonnfors took up the position of CEO .",neutral,0,0.08013453700894325,0.013314660305375562
+FPB0914,"128,538 shares can still be subscribed for with Series E share options , max .",neutral,0,0.07196484534489761,0.019633736803880662
+FPB0915,"561,470 new shares under 2003 option rights plan Packaging company Huhtamaki Oyj reported on Monday that a total of 561,470 new shares of the company have been issued based on share subscriptions under its 2003 option rights plan .",neutral,0,0.09497853950727848,0.09238681208923595
+FPB0921,Aker Yards Finland will begin using Chinese subcontractors at its Finnish shipyards .,neutral,0,0.08332532411147577,0.029484223704373116
+FPB0923,"According to business media reports , Usmanov planned to transfer his MegaFon stake to the state-controlled Svyazinvest , in exchange for a stake in the merged RosTelecom .",neutral,0,0.09535131654097115,0.02813525020513154
+FPB0926,"According to the Finnish-Russian Chamber of Commerce , all the major construction companies of Finland are operating in Russia .",neutral,0,0.09578400569583963,0.043731771280851796
+FPB0928,"After the sale , Savcor Group Ltd will comprise Savcor ART , a corporate function and an investment in Cencorp Corporation .",neutral,0,0.06953589165363333,0.015258025619290618
+FPB0929,Ahlstrom 's share is quoted on the NASDAQ OMX Helsinki .,neutral,0,0.08030114289878751,0.024889924531171167
+FPB0935,As a part of the agreement 10 employees from the John Deere Forestry documentation functions will transfer to DokuMentori Oy .,neutral,0,0.06361136679591789,0.015481843903398759
+FPB0944,Catalysts segment includes refinery catalysts and polyolefin catalysts product categories .,neutral,0,0.06421730512059384,0.016447780097675484
+FPB0958,Elcoteq SE is listed on the Nasdaq OMX Helsinki Ltd. .,neutral,0,0.07316466262840361,0.023526088230790988
+FPB0959,Electronic versions require 24-48 hours as each copy is customized to the client with digital controls and custom watermarks .,neutral,0,0.06044644782953785,0.012106909774879297
+FPB0960,"Elisa Corporation will disclose its financial statements for 2006 on Thursday , 8 February 2007 .",neutral,0,0.07675678656262679,0.019229638694160195
+FPB0966,"Financial Statements include the consolidated financial statements of the Group , the Board of Directors ' Report , the Auditors ' Report and the Corporate Governance Statement .",neutral,0,0.05213769325664721,0.006840587686164586
+FPB0969,"Finnish Sampo-Rosenlew manufactures approximately seven forest machines monthly , and about half of machines are exported .",neutral,0,0.1089197929114001,0.06947742179951001
+FPB0970,Finnlines has six ships under construction in China with deliveries scheduled between the first quarter of 2011 and the final quarter of 2012 .,neutral,0,0.11176287127836561,0.04855624987531563
+FPB0973,"Founded in 1923 , Finnair is one of the world 's oldest airlines and flies to 60 destinations with a fleet of 63 aircraft , employing 9,500 people .",neutral,0,0.06791993843686595,0.02058318837261319
+FPB0974,"Glaston 's share GLA1V is listed on the NASDAQ OMX Helsinki , Mid Cap List .",neutral,0,0.07881436110570215,0.02711167539934097
+FPB0976,GyPSii service supports ten different languages including Korean and Russian .,neutral,0,0.06178561930606632,0.009278878529402
+FPB0982,"In future , the plant will focus on the production of flange profiles for wind farm towers .",neutral,0,0.06850872772741105,0.013291856458298367
+FPB0995,"China Unicom , NYSE : CHU , HKSE : 0762 , and SHSE : 600050 , the second largest mobile carrier in the country .",neutral,0,0.08505297344662867,0.026949026133226122
+FPB1000,Net investment income,neutral,0,0.07660566836706603,0.013670024242477527
+FPB1003,"Of the company 's net sales , 38 % was acquired in Finland , 21 % in other European countries , 40 % in Asia , and 1 % in the US .",neutral,0,0.0997622549569778,0.03448793579437181
+FPB1004,Officials did not disclose the contract value .,neutral,0,0.05547576467789398,0.01154583372439569
+FPB1008,"Paychex has more than 100 offices serving approximately 554,000 payroll clients nationwide as of May 31 , 2009 .",neutral,0,0.08266443417644607,0.031915298164220035
+FPB1017,Related links : Flexiblebaseloadoperation TheWartsila32generating set Gasconversions This is the shorter of two versions of this press release .,neutral,0,0.053059822149298635,0.007103754095552949
+FPB1018,"rosendal at outotec.com Eila Paatela , Vice President - Corporate Communications tel. +358 20 529 2004 , +358 400 817198 e-mail eila .",neutral,0,0.07342901271395878,0.016518483535876104
+FPB1024,Solteq Plc ANNOUNCEMENT 16.12.2010 SHARE REPURCHASE 16.12.2010 In the Helsinki Stock Exchange Solteq Plc now holds a total of 486.969 shares including the shares repurchased on 16.12.2010 .,neutral,0,0.08340224734062059,0.02192616668898682
+FPB1037,"The 2500-passenger ferry will have dimensions of 185 m length overall , 170 m length between perpendiculars , 27.70 m breadth and 6.55 m design draught .",neutral,0,0.07915126775713913,0.032355475005945905
+FPB1038,"The acquisition does not have to be from the frozen foods or fish sector , as long as it has synergies with L+ñnnen Tehtaat 's other businesses .",neutral,0,0.06266192572082707,0.0117812778918788
+FPB1062,The continued operations mean the structure after the restructuring of the Aspocomp group including Aspocomp Oulu and the headquarter operations .,neutral,0,0.06456584807156529,0.015322752114755011
+FPB1073,"The development of the technological park , which will specialize in telecommunications and information technologies , is part of the state program for the formation of technoparks for hi-tech sectors in Russia .",neutral,0,0.048194833777887164,0.006186894032436764
+FPB1075,"The final price will be specified by 14 May 2010 , the acquiring company said .",neutral,0,0.06416072266841635,0.011127164283460991
+FPB1079,"The fish content of the nuggets is 85 % , and the fish comes from Canada and Finland .",neutral,0,0.056373549346162594,0.011894300940687616
+FPB1083,The increase range will vary up to 10 % .,neutral,0,0.049478556208039225,0.0018480772488196828
+FPB1085,"The latest date for registration is on 4 April , 2006 .",neutral,0,0.06858930492075697,0.018582445344995535
+FPB1088,"The maximum amount of the capital loan will be EUR30m and the minimum subscription -- EUR10 ,000 .",neutral,0,0.045147520121715926,0.006842654257621355
+FPB1089,The maximum number of new shares to be offered is 22 million .,neutral,0,0.06462536340484006,0.014482309832327006
+FPB1098,"The order comprises four ball mills , which will be organized in two different streams for treating ore in the Pilanesberg platinum mine .",neutral,0,0.06235435117944722,0.01019792306128757
+FPB1104,"The platform is based built on Intel s second-generation MID platform , called Moorestown .",neutral,0,0.0716152363222101,0.01967820742519182
+FPB1107,The purchase sum is about EUR 10mn US$ 12.97 mn .,neutral,0,0.0808185272744126,0.02153619594412429
+FPB1120,Two other sites will be included later on .,neutral,0,0.05092844496269022,0.007111129707806402
+FPB1122,Upon completion of the sale Proha would get some USD12 .7 m for its stake in Artemis .,neutral,0,0.06617929070053337,0.01120707749795346
+FPB1139,"+£lemiste City is the environment for a knowledge-based economy providing work for 3,300 people with the total turnover of its companies amounting to EEK 5.4 bn , '' said +£lo P+ñrnits , chairman of the supervisory board of +£lemiste City and Mainor .",neutral,0,0.05924203395761411,0.012265300922350153
+FPB1141,"3 January 2011 - Scandinavian lenders Sampo Bank ( HEL : SAMAS ) , Pohjola Bank ( HEL : POH1S ) and Svenska Handelsbanken ( STO : SHB A ) have provided a EUR160m ( USD213m ) line of credit to Lemminkainen Oyj ( HEL : LEM1S ) , the Finnish construction firm said on Friday .",neutral,0,0.09123709267161298,0.029033916446838556
+FPB1142,"A coker crane will be supplied to Tesoro Corporation 's Golden Eagle Refinery in Martinez , California , while a similar crane will be delivered to BP 's Castell refinery in Spain .",neutral,0,0.0680146749319761,0.016256083112015342
+FPB1144,A huge issue for us is the button placement .,neutral,0,0.06527122987803598,0.015243914469820785
+FPB1154,"Additionally , the company will use the solutions to automate the preparation of financial statements according to IFRS standard .",neutral,0,0.07574337455857806,0.02209329698996317
+FPB1158,"After the restructuring , UPM 's average paper machine capacity in Europe will be 320,000 tons ( 350,000 short tons ) in coated magazine paper and 420,000 tons ( 460,000 short tons ) in coated fine paper .",neutral,0,0.07833863578573486,0.03899976507398785
+FPB1161,"Ahlstrom Corporation STOCK EXCHANGE ANNOUNCEMENT 23.4.2007 Ahlstrom Corporation will publish its first quarter financial results 2007 on Friday , April 27 , 2007 approximately at 8.30 a.m. Finnish time .",neutral,0,0.09400127415551054,0.025924167536424566
+FPB1163,"Alma Media Corporation PRESS RELEASE March 25 , 2010 TYRV+ä+äN SANOMAT PURCHASE CONFIRMED The business operations of Tyrv+ñ+ñn Sanomat Oy will be transferred to Suomen Paikallissanomat Oy .",neutral,0,0.059923690689691916,0.008131458052997177
+FPB1164,"Altogether CapMan employs approximately 150 people in Helsinki , Stockholm , Copenhagen , Oslo , Moscow and Luxembourg .",neutral,0,0.07827684020314352,0.026675817468704673
+FPB1167,An EU law on the issue may be introduced around 2010 .,neutral,0,0.05485547917425166,0.006336154295151496
+FPB1175,"At some point , it will spread also to Iran and Iraq .",neutral,0,0.05711464228734761,0.009391385424533143
+FPB1187,"CapMan , with offices in Helsinki , Stockholm , Copenhagen and Oslo , manages Nordic buyout , mezzanine , technology , life science and real estate funds with approximately EUR2 .6 bn in total capital .",neutral,0,0.0780361629652445,0.027375882730191498
+FPB1191,Changes to the as-built models from the design were communicated to the subcontractors to accommodate them into the steel and GRC fabrication process .,neutral,0,0.07762187814057586,0.021358192312633844
+FPB1196,com and possibly also through photo-msn .,neutral,0,0.05129217690672443,0.008455600592727132
+FPB1207,Deliveries by Outotec will take place over 30 months .,neutral,0,0.07443955136270444,0.019145552507913225
+FPB1212,"During the rally , which was authorized by the city administration , a consulate official came out to the workers , spoke to them and took a letter from them .",neutral,0,0.13192174255729383,0.17741524651801585
+FPB1223,Financial terms were not disclosed .,neutral,0,0.05785878023589411,0.012208360164428132
+FPB1241,Her present position is the director of Stockmann 's international department stores .,neutral,0,0.06514679766399535,0.014398633045425083
+FPB1246,Image data produced by the browser at the phone server is converted into a bitmapped image that is sent to the handset for display . '',neutral,0,0.077038585414212,0.029376600207035235
+FPB1252,"In a release on Oct. 28 , Peab said the two businesses will continue to be conducted under the brands Cliffton and Stockholm Entreprenad , both part of the Peab Group .",neutral,0,0.06255828657548089,0.01836669334723653
+FPB1259,"In this way , the industry 's starting point has been the consumers ' needs .",neutral,0,0.07602935620778609,0.024014096652879093
+FPB1260,"In total , more than 3000 surveillance cameras will be handled and managed according to a variety of needs , the company said .",neutral,0,0.08311481788035342,0.05078001134633032
+FPB1267,Investment management and investment advisory services are the company 's sole line of business .,neutral,0,0.05385154077829004,0.00936636186193486
+FPB1277,Its market share is 6 percent according to AC Nielsen 's 2008 data .,neutral,0,0.11685131991905372,0.05697700504994151
+FPB1281,"Jon Risfelt has previously held operational executive positions in Europolitan , Ericsson , SAS , American Express card and travel divisions , as well as Nyman & Schultz ( CEO ) , Vodafone Sweden ( CEO ) , and Gambro Renal Products ( CEO ) .",neutral,0,0.057670206873265926,0.010044690427252213
+FPB1286,"Koff 's market share of the volume of the market was 23.4 % , Karhu 's 21.4 % .",neutral,0,0.12239804878817438,0.14371846579971792
+FPB1304,Negotiations with representatives of the personnel regarding the restructuring process have now been ended .,neutral,0,0.07718494669846705,0.028946520573864928
+FPB1308,No changes in media activity were seen in October compared with September .,neutral,0,0.14314516943860556,0.20959155856688372
+FPB1310,No financial details were revealed .,neutral,0,0.06095939063492156,0.015462307766487599
+FPB1319,Okmetic has used the furnaces for the contract manufacturing of solar crystals .,neutral,0,0.07225704823950917,0.02020492608403041
+FPB1322,"One can also apply for jobs directly from the iPad , select which CV to attach and which covering letter is most appropriate for each position .",neutral,0,0.06902412916735384,0.015115736614125788
+FPB1327,"OTHER North-Rhine Westphalia - Is to issue a benchmark , 5 year fixed rate deal in Euros .",neutral,0,0.08204061176819195,0.024603900467031408
+FPB1336,"Price talk is in the mid-market swaps plus 105 bps area and the leads are Barclays , BNPP , UBS and CBA .",neutral,0,0.06411124686159368,0.014357367508932975
+FPB1340,"Protalix closed at $ 10.71 on Friday on the American Stock Exchange , giving a market cap of $ 827 million .",neutral,0,0.0800422503127792,0.018090390581684827
+FPB1342,R&D Loan ) .,neutral,0,0.07982261981898556,0.023210180631833947
+FPB1343,Raisio is the site of the main production plants as well as company headquarters .,neutral,0,0.04217455456893168,0.00647683422848926
+FPB1344,Rapala VMC Corporation ( Rapala ) is a Finland-based company engaged in the manufacture and distribution of fishing equipment and accessories .,neutral,0,0.061182880216523926,0.011356469371795977
+FPB1347,RL-Nordic is a part of Raiffeisen-Banking-Group Austria and is a subsidiary to Raiffeisen-Leasing GmbH in Austria .,neutral,0,0.056356104230506285,0.008483928162560174
+FPB1369,"Tecnomen 's solution can be used for prepaid and post-paid billing , for charging and rating of voice and video calls , data traffic and any kind of content services in both mobile and fixed networks .",neutral,0,0.05907398513065442,0.012277680601318121
+FPB1370,Terms of the acquisition were not disclosed .,neutral,0,0.05128476571853074,0.008814780987177147
+FPB1379,The arrangements do not apply to the group 's units outside Finland .,neutral,0,0.06870062815598132,0.012397537748389998
+FPB1381,"The biggest sellers in the chain 's supermarkets in Finland are organic Pirkka tomatoes , carrots , eggs , and meat products .",neutral,0,0.08152137043603563,0.022672534026910662
+FPB1383,"The building will house , for example , Respecta Oy 's Jyvaskyla premises , as well as other companies to be announced later , says Samuel Koivisto , Director of Technopolis operations in Jyvaskyla .",neutral,0,0.05883528508945062,0.011305440434642879
+FPB1384,"The business units of the InvestLesProm Group cover the full forest industry chain , and the Group owns forests , sawmills , paper and pulp mills , and other processing plants .",neutral,0,0.051420403485018654,0.008688371882150138
+FPB1386,"The casing comprises a first side casing member provided with the first side vat segment and a second side casing member provided with the second side vat segment , at least the first side casing member being pivotable about a rotation axis .",neutral,0,0.09745918983752944,0.0379042907572403
+FPB1389,The combined value of the orders is EUR 45mn .,neutral,0,0.051746477708898175,0.011067006062371418
+FPB1391,"The company can not give up palm oil altogether , however .",neutral,0,0.0589493482666047,0.008142057192053154
+FPB1396,"The company has decided to stop the operations of Ruukki Construction Division in Latvia and Lithuania , and concentrate the production and logistics in Parnu , Estonia in 2009 .",neutral,0,0.07449131875210391,0.018600456843166042
+FPB1405,The company 's model is based on developer contracting construction projects and customer focused project management .,neutral,0,0.06053375448062712,0.01863787062976567
+FPB1407,The company says the measures are no longer needed .,neutral,0,0.06973660337972402,0.01880634219758732
+FPB1409,"The company serves customers in various industries , including process and resources , industrial machinery , architecture , building , construction , electrical , transportation , electronics , chemical , petrochemical , energy , and information technology , as well as catering and households .",neutral,0,0.05468868655267652,0.012486190926283114
+FPB1415,"The contract covers the supply of temporary heating equipment for LKAB 's new pellet plant in Kiruna , in northern Sweden .",neutral,0,0.0687733683386141,0.01658071428326538
+FPB1428,The ECB can mainly target inflation .,neutral,0,0.07362803675063943,0.019884003390724866
+FPB1431,The exercise price of the option will be based on Safran Software Solutions ' license and maintenance sales as well as the result of the company .,neutral,0,0.05400033972059266,0.022096599591247667
+FPB1443,The full-function PC weighs 1.25 kilograms and measures slightly more than two centimeters thin .,neutral,0,0.09326160476588548,0.06956874600204614
+FPB1461,The medium-term operative targets of the company remain unchanged .,neutral,0,0.06777675343655724,0.021299462982875637
+FPB1462,The MET is located in the Central Business District ( CBD ) of Bangkok .,neutral,0,0.0639692392838197,0.009827538732347063
+FPB1468,The new location is n't the only change Wellmont has in store for its air transport service .,neutral,0,0.05773554058536921,0.008473559885261822
+FPB1470,The Notice in its entirety with other proposals from the Nomination Committee and the Board will be published at least four weeks before 28 April on the company 's website and in Post - och Inrikes Tidningar and Dagens Industri .,neutral,0,0.06169983607541695,0.014062880716852343
+FPB1481,The plant will collect raw material from the Baltic Sea region .,neutral,0,0.0986881112553287,0.0598907542756163
+FPB1490,"The product advisory does not apply to any other Nokia-branded battery , the company said .",neutral,0,0.060570023499860765,0.010520727208036498
+FPB1491,The project also implies an underground parking lot for 56 vehicles .,neutral,0,0.0666022255884014,0.01349497461061927
+FPB1492,The properties were purchased from Swedish private equity real estate firm Niam and Goldman Sachs ' Whitehall Street Real Estate Funds .,neutral,0,0.07711375417096517,0.017861309962296328
+FPB1494,The purchase price was not disclosed .,neutral,0,0.06291558954990598,0.013365561573672849
+FPB1499,The report will be emailed within 2 business days of an order .,neutral,0,0.04655118802464189,0.0053314363587861945
+FPB1501,The sale price was not disclosed .,neutral,0,0.06377059311666027,0.013923236065266261
+FPB1505,The sellers were EOSS Innovationsmanagement and a group of private individuals .,neutral,0,0.06429593208841623,0.01351362480079959
+FPB1541,The volume of investments in the two phases of the project is estimated at USD 300mn ( EUR 215.03 mn ) .,neutral,0,0.08808632803381247,0.023376635023633203
+FPB1544,"These include software development for internet and mobile telephone content , communications , value-added software , financial services , security applications , systems integration and electronics , '' EBRD informed .",neutral,0,0.063282057490961,0.014192740848574944
+FPB1563,"Vaisala , headquartered in Helsinki in Finland , develops and manufactures electronic measurement systems for meteorology , environmental sciences , traffic and industry .",neutral,0,0.0923040822495493,0.063506006258696
+FPB1569,"With five different game modes , co-op tournaments , 4 player split-screen and multiplayer modes , players can have as much fun as they would if they were actually fishing .",neutral,0,0.060757842080560245,0.012743102038238153
+FPB1575,- Cash flow from operating activities before investments was EUR 7.6 million EUR 2.5 million .,neutral,0,0.1310481466234159,0.0425628275644388
+FPB1585,`` These developments partly reflect the government 's higher activity in the field of dividend policy . '',neutral,0,0.08701806833889628,0.028156178864156178
+FPB1586,`` This could be us .,neutral,0,0.07200895521013316,0.023442519070581203
+FPB1590,A filter is used to pre-process packets to determine if they need to be further processed by the processor of the network device .,neutral,0,0.06661624791302063,0.015695984562886147
+FPB1593,"According to Finnish Scanfil 's founder and chairman of the board , Jorma J. Takanen , the company has to look for growth abroad .",neutral,0,0.08578508826025406,0.04824132353735946
+FPB1598,Amanda Capital has investments in 22 private equity funds and in over 200 unquoted companies mainly in Europe .,neutral,0,0.07326969515974625,0.01812453414370389
+FPB1599,Analysts surveyed by Thomson Financial expected revenue of $ 69 million for the quarter .,neutral,0,0.16543700236433534,0.22900995505301716
+FPB1600,"As much biomass will be used as can be sourced locally , with the rest of the plant 's fuel needs met by peat .",neutral,0,0.053451553635638915,0.008802853730233737
+FPB1601,"As part of the transaction , the +ä+ñnekoski paper mill remained in M-real 's ownership and continued Galerie Art production for Sappi under a long-term contract .",neutral,0,0.05811949793626714,0.013421250229785719
+FPB1602,"Aspocomp Group , headquartered in Helsinki , Finland , develops interconnection solutions for the electronics industry .",neutral,0,0.09493778493283736,0.04715771317418773
+FPB1611,"Cargotec 's sales totalled EUR 3.4 billion in 2008 and it employs approximately 11,000 people .",neutral,0,0.1517995917268064,0.1598532832414611
+FPB1616,"Componenta has production lines for similar-sized products at Karkkila in Finland , at Weert in the Netherlands and at Orhangazi in Turkey , and these had a combined output of approximately 100,000 tonnes and net sales of EUR 135 million in 2007 .",neutral,0,0.10496784859014073,0.027566428379868623
+FPB1617,CS Cabot 's main consumers on the Czech and Slovak market are tires producers Barum Continental and Matador Continental .,neutral,0,0.07208577017392646,0.024695342907504147
+FPB1621,"Currently Glaston employs approximately 1,500 persons .",neutral,0,0.06627723722773811,0.01561622948457807
+FPB1623,Customers include hotels and restaurants as well as wholesalers and some retailers .,neutral,0,0.04384046747834833,0.006270637593205186
+FPB1625,Delivery is expected to take place later this month .,neutral,0,0.06365983415760154,0.011958994156591324
+FPB1631,EUR 152.4 mn of this was net interest income .,neutral,0,0.09642068117599181,0.01836419039883146
+FPB1640,"From 2003 on , the emphasis of Kyro 's strategy has been on Glaston 's growth .",neutral,0,0.10736383127233662,0.07817497278257653
+FPB1641,Group net sales in the third quarter of 2007 totaled EUR 142.3 mn and operating profit EUR 4.3 mn .,neutral,0,0.2871240900605026,0.06266662110723141
+FPB1644,"In 2007 , Etteplan had turnover of EUR125 .2 m.",neutral,0,0.11683962922094518,0.09636463543337999
+FPB1645,"In 2007 , the Group 's net sales stood at EUR 42 million and it had about 1,445 employees .",neutral,0,0.1336725719189996,0.09505724023844635
+FPB1647,"In 2008 , AVC Systemhaus had net sales of EUR 10 million USD 7.1 m .",neutral,0,0.23952907409168647,0.21568651440954703
+FPB1655,"In Finland , the five largest brands control 90 % of the beer market .",neutral,0,0.07798752643410195,0.023035607504407474
+FPB1664,"It now owns 80,565 shares in Amer Sports Corporation , equaling 0.11 % of the company 's share capital and voting rights .",neutral,0,0.05816065828786505,0.012924508577907638
+FPB1665,It posted a turnover of 4.5 mln euro $ 6.1 mln and an operating profit of 1.5 mln euro $ 2.0 mln for 2006 .,neutral,0,0.17377102747723883,0.0830306378910144
+FPB1666,Ixonos will finance the acquisition through a 3.8 mln euro $ 5.2 mln loan .,neutral,0,0.093139527855044,0.02740604406767674
+FPB1670,"LCS 's services cover the whole life cycle of software and information systems , from process modelling and tailored software development , to hosting services , solution management , maintenance and support .",neutral,0,0.08007704154667776,0.03809604008596271
+FPB1677,"Most of the raw materials come from Europe and the US and are paid in euros or US dollars , while sales take place in rubles .",neutral,0,0.08705351335031955,0.04177666324521465
+FPB1679,"Motorola Inc. of the United States came second with shipments of 217.4 million units for a 21.3 percent market share , followed by South Korea 's Samsung Electronics Co. with shipments of 118.0 million units for an 11.6 percent share .",neutral,0,0.1264347642814762,0.09664721503350261
+FPB1683,Mr. Koistinen joins from Nokia Siemens Networks where he has held various senior sales management and business development positions since 1997 .,neutral,0,0.07495218690987088,0.02819059232666249
+FPB1690,"Nordea Bank AB publ holds 6.000 Alma Media shares , representing 0.008 % of share capital and voting rights .",neutral,0,0.06148055535531208,0.015442671112521787
+FPB1694,"On preliminary estimate , the hotel will operate under the brand Novotel .",neutral,0,0.07851937902842747,0.040388054636891296
+FPB1699,"Panostaja owns a 68.77 pct of share capital and the voting rights of Suomen Helasto shares following an exchange of shares which was carried out on May 30 , 2007 .",neutral,0,0.07891314112067056,0.03312490956374723
+FPB1700,"Payment for acquired shares will be made in cash , and the price per share will be EUR 1 plus an administration fee .",neutral,0,0.05746459288398286,0.009567449645474865
+FPB1710,RSA 's shares closed at 156.9 p at the time of going to press .,neutral,0,0.08906356503820767,0.04147393256009937
+FPB1715,Stora Enso will receive a 19.9 pct equity interest in the combined company .,neutral,0,0.08170202819110196,0.0211033391979043
+FPB1716,Stora is due to release its fourth-quarter and 2009 full-year earnings on Feb. 4 .,neutral,0,0.144832565656912,0.13676504887789
+FPB1729,The business development initiatives in North America are headed by Lynn Shanahan .,neutral,0,0.07231831780204906,0.016455351557819044
+FPB1738,"The company , which has EUR2 .8 bn in assets , counts among its five largest shareholders Finnish insurers Ilmarinen 4.34 % and Varma 0.70 % , as well as the Finnish state pension fund VER 0.61 % .",neutral,0,0.0731756774074071,0.027477097499266658
+FPB1740,The company did not distribute a dividend in 2005 .,neutral,0,0.07269407045780651,0.018069649458534235
+FPB1744,The company has 120 employees and annual sales of approximately EUR16m .,neutral,0,0.0609905729378282,0.010262219368994333
+FPB1747,"The Company operates through four principal divisions : Consumer Packaging ; Office Papers ; Speciality Papers , as well as Market Pulp and Energy .",neutral,0,0.05525408082636183,0.01053251295750914
+FPB1750,"The company 's transportation business is conducted through Florida Rock & Tank Lines , which is a Southeastern transportation company concentrating in the hauling by motor carrier of liquid and dry bulk commodities .",neutral,0,0.06882682948408837,0.022437802584031663
+FPB1760,"The deal includes all rental equipment and related merchandise , the rental contract of the depot and two employees , the company said .",neutral,0,0.047099806840515006,0.006577336738482438
+FPB1769,"The EBRD is using its own funds to provide a 21.6 million A loan while the B portion of 10 million Euros has been syndicated to two Finnish commercial banks , Nordea Bank Finland Plc and Pohjola Bank Plc. .",neutral,0,0.07732887605437927,0.016484650748858732
+FPB1773,"The equipment Ixonos acquires with this deal includes mechanical engineering hardware ; an RF and antenna measurement laboratory ; facilities for the measurement of audio , cameras and displays ; as well as devices and robot units for the testing of mobile devices .",neutral,0,0.05648791748349837,0.011074811196791434
+FPB1775,The estimated annual value of the frame agreement is about EUR 50mn .,neutral,0,0.043976442600013065,0.0051671803295378635
+FPB1787,The firm builds components for mobile phones and other communications products .,neutral,0,0.06713078430402664,0.016003512610007882
+FPB1792,"The manufacture of CPPs will be undertaken at the existing Export Oriented Unit EOU at Wartsila 's factory at Khopoli , near Mumbai .",neutral,0,0.06737189923549614,0.02149329389631503
+FPB1793,The markets expect Heineken to sell Hartwall as a whole or in parts .,neutral,0,0.08011649254431404,0.020712841503044917
+FPB1794,"The most significant capital expenditure items were in the global enterprise resource planning ERP project , product development and production machines .",neutral,0,0.07750288590868763,0.025184184109741072
+FPB1798,The non-recurring costs caused to Talentum 's Premedia business area by the restructuring will amount to 2.0 mln euro $ 2.7 mln and will be included in the company 's financial results for the second quarter of 2007 .,neutral,0,0.16305636567915546,0.15871528506378485
+FPB1799,The ongoing project where Tekla Structures is being used is the Vashi Exhibition Centre being developed by Insteel Engineers Pvt Ltd-IIVRCL Infrastructures & Projects Ltd & CIDCO .,neutral,0,0.06505540789158257,0.015027126382403666
+FPB1800,"The operations to be sold include manufacturing units in Finland , France , Poland and Turkey , as well as sales units in Germany and Lithuania .",neutral,0,0.06720580728123149,0.016912885992125235
+FPB1801,"The order also covers design services , hardware , software licences , as well as maintenance services over six years .",neutral,0,0.04566872527866414,0.006682857398355692
+FPB1802,"The order consists of outsourced application management , support and planning for Tecnotree and third-party applications .",neutral,0,0.06771872571797095,0.01807385721784882
+FPB1806,"The orders are for 26 machine-room-less KONE MonoSpace elevators , which would be installed during 2006 .",neutral,0,0.0853842057410286,0.04318131266822861
+FPB1812,The proposal of the shareholders to elect Mr. Hannu Krogerus to the Board is based on his long and unrivalled experience and knowledge of all matters related to Elcoteq .,neutral,0,0.0601558072436625,0.015277884650611716
+FPB1813,"The remainder of its revenues will come from technology agreements with other firms , InterDigital said .",neutral,0,0.07532687632877244,0.01703943652904407
+FPB1817,"The segments through which the company operates are Frozen Food business , Seafoods , Vegetable Oil business , Grain Trading and Other business operations .",neutral,0,0.0505717762945199,0.006158890425741037
+FPB1819,The solution will be installed in the USA to support the North American operations of the customer .,neutral,0,0.061450076440050086,0.011833895565391125
+FPB1821,The studies are expected to start in 2008 .,neutral,0,0.1023332451800779,0.036279363536235565
+FPB1824,The total capacity of the factory will be approximately 100 engines a year .,neutral,0,0.05394512655337315,0.009383175809066635
+FPB1826,The total investment in 2006 and 2007 is expected to amount to about EUR75m .,neutral,0,0.06559927491300009,0.012378136465561088
+FPB1830,The transaction is planned to be financed with a EUR40m market-based loan granted by Standard Chartered Bank Hong Kong .,neutral,0,0.07167705569256203,0.020977189392789208
+FPB1834,"The value of the contract is about EUR1 .0 m. Poyry , headquartered in Vantaa , Finland provides consulting and engineering services to the energy , forestry and infrastructure & environment sectors .",neutral,0,0.045893704460304406,0.010127180828974526
+FPB1839,The value of the deal was not disclosed .,neutral,0,0.03974319992442397,0.006276581774616705
+FPB1840,The value of the multi-year agreement is over EUR 2mn a year .,neutral,0,0.07172345395512125,0.023140763403148645
+FPB1848,This wood lacquered clock comes with a stripy hand-crocheted cover .,neutral,0,0.0768531619135713,0.027208152639076683
+FPB1849,To see a slide show of all the newest product releases from Fiskars .,neutral,0,0.09636829351734964,0.041592353059354
+FPB1854,"Under the transaction agreement , Metsaliitto will purchase 24.7 % of Metsa-Botnia 's shares from UPM and 3 % from M-real .",neutral,0,0.0740032947988633,0.020484212066867073
+FPB1863,"In the third quarter of fiscal 2008 Efore swung to a net loss of EUR 400,000 versus a net profit of EUR 200,000 for the corresponding period of fiscal 2007 .",negative,1,0.3171104724013724,0.27135341681584546
+FPB1865,Operating loss totaled EUR 25mn compared to a profit of EUR 63mn in the corresponding period in 2005 .,negative,1,0.5261364277581281,0.9598869177191268
+FPB1885,"Operating loss totaled EUR 0.8 mn , compared to a profit of EUR 0.5 mn .",negative,1,0.6211015170690438,0.9768654024248887
+FPB1892,"Publishing Sweden 's operating loss was EUR 1.1 mn in Q1 of 2009 , compared to a profit of EUR 0.6 mn a year ago .",negative,1,0.5191421763103486,0.9390411339041043
+FPB1893,The company reported today an operating loss of EUR0 .1 m on net sales of EUR4 .5 m for the first quarter 2008 .,negative,1,0.3099672314626917,0.4679371749666135
+FPB1895,"Finnish electronics manufacturing services EMS company Elcoteq SE posted a net loss of 66.4 mln euro $ 91.2 mln for the first half of 2007 , compared to a net profit of 7.1 mln euro $ 9.8 mln for the same period of 2006 .",negative,1,0.4691781744366779,0.8223435774514595
+FPB1896,Finnish laboratory liquid handling and diagnostic test systems developer Biohit Oyj OMX Helsinki : BIOBV issued on Tuesday 3 June a profit warning for the financial year 2008 .,negative,1,0.2300144775327235,0.7036444575856811
+FPB1902,"Operating loss before non-recurring items was EUR 0.9 mn , compared to a profit of EUR 11.5 mn in 2008 .",negative,1,0.6927570431303821,0.9869142632032789
+FPB1907,Scanfil has also issued a profit warning .,negative,1,0.21003932729806993,0.6692141622792764
+FPB1916,EBIT excluding non-recurring items was estimated to increase from 2009 .,positive,0,0.17509281059581053,0.2099173282440434
+FPB1917,Operating profit excluding non-recurring items increased by 27 % to EUR 81.9 mn from EUR 64.4 mn in the corresponding period in 2008 .,positive,0,0.42094491505133685,0.5750249996230794
+FPB1931,"Initial estimated total value of the contract was 250 000 Euros , excluding VAT .",neutral,0,0.0642321316338701,0.019829140825058527
+FPB1939,"Trading code : ELI1V Number of shares : 99,483 Price-share : Gratuitous After the transfer , Elisa holds a total of 10,435,023 own shares .",neutral,0,0.08121381221610423,0.03195079448789078
+FPB1941,Finnish publishing and printing group Ilkka-Yhtym+ñ will introduced a staff smoking ban as of the beginning of 2007 at the company 's three newspapers .,neutral,0,0.08170608713392191,0.03257758738743414
+FPB1945,An international conference call and audio webcast concerning the financial result January-March 2010 will begin at 14.00 EET .,neutral,0,0.06795775784660764,0.014878933696952014
+FPB1958,Residents access to the block is planned to be from Aleksandri Street .,neutral,0,0.08111924971850036,0.030704705211666045
+FPB1964,"The business had gross written premiums of EUR152 .4 m ( 91.5 m ) in 2000 , a net combined ratio of 133 % and 175 staff in total with offices in the UK , Germany and Benelux .",neutral,0,0.07789151029773662,0.017687398720862748
+FPB1968,"The copying , republication or redistribution of AFX News Content , inculding by framing or similar means , is expressly prohibited without the prior written consent of AFX News .",neutral,0,0.0697282991519261,0.012185875562280103
+FPB1977,"The negotiations concern personnel of Cencorp Corporation and Singulase Oy as whole in Finland and in Sweden , the company said .",neutral,0,0.0690864971005513,0.017533659984329767
+FPB1985,The terms and conditions of Stock Option Scheme 2004 are available on the Group 's website .,neutral,0,0.059656414267035544,0.011519943480463887
+FPB1993,"Boomeranger Boats Oy specialises in boat building and designs , manufactures and sells customised Rigid Inflatable Boats RIB primarily for the Baltic Sea market .",neutral,0,0.09870639746718027,0.07225934189711584
+FPB1994,Currently the quarterly applied surcharges differ significantly from the actual market prices .,neutral,0,0.11012501527566433,0.08160643815858415
+FPB1999,Mursula said they tried to gather macro-economic perspective to see how Malaysia was doing .,neutral,0,0.10584980489618864,0.054704267878426825
+FPB2006,"The floor area of the Yliopistonrinne project will be 7,900 sq m 85,030 sq ft and the building 's gross area will total 12,800 sq m. A total 25.1 % of the facilities have been let .",neutral,0,0.06091684075452015,0.016528243483622748
+FPB2010,"This action follows personnel negotiations concerning Elcoteq SE , Finnish Branch , Elcoteq Finland Oy and Elcoteq Design Center Oy .",neutral,0,0.07160480635915456,0.021531128276401277
+FPB2012,`` Those uncertainties cloud the long-term outlook . '',negative,1,0.08644498857204885,0.0456251825146155
+FPB2025,Glaston 's net profit for the third quarter of 2007 dropped to 2.4 mln euro ( $ 3.5 mln ) from 3.5 mln euro ( $ 5.1 mln ) for the corresponding period of 2006 .,negative,1,0.4612447953040516,0.855895813650647
+FPB2028,"Net cash flow from operating activities was a negative EUR 3.1 mn , compared to EUR 23.3 mn in the corresponding period in 2009 .",negative,1,0.38254418977961785,0.6955858204928657
+FPB2031,Net sales have been eaten by the weak US dollar .,negative,1,0.16521055959096476,0.2184177360191668
+FPB2039,Relations with the City have been further damaged by comments from Mr Ashley criticising City investors and analysts as `` cry babies '' .,negative,1,0.09075193313163572,0.052476204506439715
+FPB2046,"`` The implementation of these programs has had , and will have , negative impacts on 2006 and 2007 earnings , '' Mr Meiklejohn said .",negative,1,0.08135009366306159,0.03766127813954182
+FPB2048,"Agricultural newspaper Maaseudun Tulevaisuus had 318,000 readers , representing a decrease of 6 % .",negative,1,0.09479697233262419,0.07817674617197114
+FPB2054,"The period 's sales dropped to EUR30 .6 m from EUR38 .3 m , according to the interim report , released today .",negative,1,0.2502132616446771,0.7529503772789458
+FPB2059,Efore 's results for the last quarter showed an even faster improvement as the company managed to better source its components .,positive,0,0.09065464295642515,0.02385668018550217
+FPB2067,"The 10,000-odd square metre plot that Stockmann has bought for the Nevsky Center shopping center is located on Nevsky Prospect , St Petersburg 's high street , next to the Vosstaniya Square underground station , in the immediate vicinity of Moscow Station .",neutral,0,0.07608506386158376,0.021872104249511703
+FPB2068,"Typically , the transmission power level can be decreased when the interference noise is above a predefined value .",neutral,0,0.09462751906162006,0.08731448255273426
+FPB2070,"Typical end-uses include roof structures , floorings , walls and ceilings , non-visible structures in vehicles , packaging and boxes , construction site structures , fencing and shelters , and formwork with a limited number of concrete pourings .",neutral,0,0.06765663251639562,0.016130135071587576
+FPB2073,17 March 2011 - Goldman Sachs estimates that there are negative prospects for the Norwegian mobile operations of Norway 's Telenor ASA OSL : TEL and Sweden 's TeliaSonera AB STO : TLSN in the short term .,negative,1,0.08079163368783751,0.025140849840420854
+FPB2090,One of the headboxes will be equipped with a modern consistency control system to ensure cross machine profile of the plasterboard .,neutral,0,0.05482436793236976,0.01026934721011649
+FPB2093,"Earlier today , Geberit 's Finnish rival Uponor OYJ cut its full-year sales growth forecast to 6 pct from 10 pct , blaming tough conditions in Germany and the US , as well as currency factors .",negative,1,0.15366963214575324,0.2503081563236275
+FPB2095,"The group 's operating loss was EUR 0.8 mn , down from a profit of EUR 2.5 mn in 2004 .",negative,1,0.7694666217987127,0.9989193402940844
+FPB2098,"Below are consolidated , unaudited results for Amanda Capital under IFRS reporting standards .",neutral,0,0.07797466006998088,0.022139272608669786
+FPB2113,Finnish Bank of +àland reports its operating profit fell to EUR 4.9 mn in the third quarter of 2007 from EUR 5.6 mn in the third quarter of 2006 .,negative,1,0.5788331092856637,0.8709039488997599
+FPB2118,"Finnish GeoSentric 's net sales decreased to EUR 939,000 in January-March 2009 .",negative,1,0.45997125109653425,0.961696244742645
+FPB2119,"Finnish Kemira 's net sales EUR decreased to EUR 1,259.6 mn in January-June 2009 from EUR 1,425.1 mn in January-June 2008 .",negative,1,0.5492382990852896,0.9666064113291534
+FPB2132,Diluted earnings per share ( EPS ) declined to EUR 0.78 from EUR 1.76 .,negative,1,0.2730969598628523,0.6105799105349236
+FPB2134,"Earnings per share ( EPS ) amounted to EUR1 .37 , down from EUR2 .30 .",negative,1,0.4192379613534743,0.9060250758511438
+FPB2137,Finnair 's total traffic decreased by 8.7 % in terms of revenue passenger kilometres .,negative,1,0.29251514889499025,0.8719024732061436
+FPB2139,"Finnish financial software solutions developer BasWare Oyj said its net profit fell to 884,000 euro ( $ 1.2 mln ) for the first quarter of 2007 from 2.0 mln euro ( $ 2.7 mln ) a year earlier .",negative,1,0.5428587240093744,0.9196325450880352
+FPB2140,Finnish glass technology company Glaston Oyj Abp net profit decreased to 2.6 mln euro ( $ 3.8 mln ) for the first nine months of 2007 from 7.8 mln euro ( $ 11.4 mln ) for the same period of 2006 .,negative,1,0.45673919658358575,0.9161537457368479
+FPB2144,"In a separate announcement to the Helsinki stock exchange , Atria revealed that the company 's third quarter profits declined from EUR13 .9 m in the third quarter of last year to EUR12 .7 m in this year 's Q3 .",negative,1,0.24935281302419066,0.49264791489240095
+FPB2148,"( ADP News ) - Feb 12 , 2009 - Finnish construction company Lemminkainen Oyj ( HEL : LEM1S ) said today its net profit decreased to EUR 63.5 million ( USD 81.1 m ) for 2008 from EUR 80.6 million for 2007 .",negative,1,0.42664019586035334,0.8755005838320623
+FPB2156,Net sales decreased to EUR 91.6 mn from EUR 109mn in the corresponding period in 2005 .,negative,1,0.6843979124809155,0.991285849101342
+FPB2157,Net sales fell by 33 % from the third quarter of 2008 to EUR 130.5 mn .,negative,1,0.5625618757102824,0.9574965220562915
+FPB2172,Revenue in the quarter fell 8 percent to ( EURO ) 2.4 billion compared to a year earlier .,negative,1,0.4706498749146224,0.959308866117917
+FPB2175,Subscription sales decreased slightly .,negative,1,0.4028941127810556,0.9781152230411663
+FPB2176,The company confirmed its estimate for lower revenue for the whole 2009 than the year-ago EUR93 .9 m as given in the interim report on 5 August 2009 .,negative,1,0.17551746565633974,0.27719489594122876
+FPB2179,The fair value of the company 's investment properties went down to EUR2 .769 bn at the end of September 2009 from EUR2 .878 bn a year earlier .,negative,1,0.24067995486418697,0.6678043667310817
+FPB2185,"Commission income decreased to EUR 3.8 mn , compared to EUR 4.6 mn in the third quarter of 2007 .",negative,1,0.677129708073868,0.9782876865508839
+FPB2186,Commission income fell to EUR 4.6 mn from EUR 5.1 mn in the corresponding period in 2007 .,negative,1,0.5531214696603196,0.9543991765640524
+FPB2188,"Exports of goods fell by 59 % , and imports by 16.7 % .",negative,1,0.1947102504227271,0.5666867674691823
+FPB2191,"Group EBIT for the first half was EUR13 .6 m US$ 17.8 m , falling short of the EUR22 .5 m it posted for the same period of 2009 .",negative,1,0.24987390704513648,0.4524774755207111
+FPB2194,"However , the net sales declined to EUR 803.6 million from EUR 1.2 billion .",negative,1,0.3069106224034833,0.6320622410650673
+FPB2200,"In the Baltic countries , sales fell by 40.2 % , and in Russia , by 23.2 % in terms of euros , and by 10.7 % in terms of local currency .",negative,1,0.26701765643690106,0.8050233444714966
+FPB2202,"Nokia shares hit 13.21 euros on Friday , down 50 percent from the start of the year in part because of the slow introduction of touch-screen models .",negative,1,0.159996117502981,0.2784054722116207
+FPB2205,Operating profit fell to EUR 20.3 mn from EUR 74.2 mn in the second quarter of 2008 .,negative,1,0.6039655356553656,0.9788411937405708
+FPB2210,"Operating profit totalled EUR 1.22 mn , down from EUR 3.56 mn in the first quarter of 2008 .",negative,1,0.7055144697846015,0.983316844556207
+FPB2213,"Operating profit totalled EUR 9.6 mn , down from EUR 42.0 mn the year before .",negative,1,0.6478682742067844,0.9871120916778865
+FPB2217,Sales by Seppala diminished by 6 per cent .,negative,1,0.15380339816056218,0.14035309754462558
+FPB2218,Talentum 's net sales in September were smaller than expected .,negative,1,0.19947425980384753,0.359007552021069
+FPB2226,`` I am extremely delighted with this project and the continuation of cooperation with Viking Line .,positive,0,0.07398021545725474,0.029415844549788645
+FPB2229,"The announcement pushed Freenet shares down 6.3 % , or EUR0 .71 , in Frankfurt trade to EUR10 .65 as investors gave up hope United Internet AG and Drillisch would pursue their own takeover and breakup of Freenet .",negative,1,0.10710292423955166,0.0875477871902652
+FPB2234,"In the building and home improvement trade , net sales totalled EUR 1,173 mn , down from EUR 1,566 mn a year earlier .",negative,1,0.5698648089354519,0.9656217731810246
+FPB2235,"In the building and home improvement trade , sales decreased by 22.5 % to EUR 201.4 mn .",negative,1,0.42188492056720844,0.9690762299092675
+FPB2236,"Finnish Suominen Corporation that makes wipes , nonwovens , and flexible packaging , expects changes in the market situation to reduce sales of Suominen 's nonwovens and wet wipes from the previously estimated volumes .",negative,1,0.11716585212641915,0.0803327519307781
+FPB2237,The hull of the vessel was built one block at a time and Ruukki delivered the plate material for each block as construction progressed .,neutral,0,0.05690356485451593,0.009835608533448371
+FPB2242,"As such , the space has blond wood floors ( unlike the rest of the store ) and a notably Scandinavian vibe .",neutral,0,0.06004195225927458,0.016739850719601112
+FPB2247,"Qualcomm estimated a first-quarter profit between 46 and 50 cents a share , excluding certain items , below the analyst estimate of 61 cents a share .",negative,1,0.16188546501147924,0.2175682185961757
+FPB2251,"External net sales from the printing business fell by 43.7 % , partly due to the termination of the printing contract between Ilkka-Yhtyma 's printing house I-print Oy and sector player HSS Media AB in December 2009 and the fall in printing prices .",negative,1,0.26655092069091973,0.8691923585847205
+FPB2263,"Operating profit fell to EUR 35.4 mn from EUR 68.8 mn in 2007 , including vessel sales gain of EUR 12.3 mn .",negative,1,0.45917132830572027,0.8719472609647024
+FPB2264,"Sales in Finland decreased by 10.5 % in January , while sales outside Finland dropped by 17 % .",negative,1,0.37949084248093223,0.9768987112392171

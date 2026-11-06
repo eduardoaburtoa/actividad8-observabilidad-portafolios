@@ -1,0 +1,55 @@
+{
+  "session": "20261106T004049Z",
+  "model_sha256": "f48c7496d5a12bd15d535721e3e83c6ef895b1ae7eaccbe7f4f4c60705bb1916",
+  "requests": 900,
+  "windows": 15,
+  "mlflow_run_id": "c0a8fa3f79b84eb4bec63d70b674bf32",
+  "mlflow_experiment_id": "1",
+  "raw_notifications": 6,
+  "emitted_notifications": 3,
+  "suppressed_notifications": 3,
+  "noise_reduction_fraction": 0.5,
+  "availability_budget_allowed": 9.000000000000007,
+  "availability_budget_used": 0,
+  "latency_budget_allowed": 9.000000000000007,
+  "latency_budget_used": 120,
+  "incidents": [
+    {
+      "id": "INC-001",
+      "type": "latency",
+      "injected_at": 1793925651.197387,
+      "detected_at": 1793925694.654464,
+      "corrected_at": 1793925694.662067,
+      "resolved_at": 1793925694.9456189,
+      "status": "resolved",
+      "detection_seconds": 43.45707702636719,
+      "recovery_seconds": 0.2911548614501953
+    },
+    {
+      "id": "INC-002",
+      "type": "degradation",
+      "injected_at": 1793925694.949149,
+      "detected_at": 1793925695.244593,
+      "corrected_at": 1793925695.246488,
+      "resolved_at": 1793925695.5125399,
+      "status": "resolved",
+      "detection_seconds": 0.2954440116882324,
+      "recovery_seconds": 0.2679469585418701
+    },
+    {
+      "id": "INC-003",
+      "type": "drift",
+      "injected_at": 1793925695.5161972,
+      "detected_at": 1793925695.813705,
+      "corrected_at": 1793925695.814046,
+      "resolved_at": 1793925696.074583,
+      "status": "resolved",
+      "detection_seconds": 0.29750776290893555,
+      "recovery_seconds": 0.2608780860900879
+    }
+  ],
+  "all_recovered": true,
+  "mttd_seconds": 14.683342933654785,
+  "mttr_seconds": 0.2733266353607178,
+  "scope": "laboratorio local con solicitudes reales y fallas inyectadas; no tráfico de clientes ni SLO mensual validado"
+}

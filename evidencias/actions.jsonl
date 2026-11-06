@@ -1,0 +1,5 @@
+{"timestamp_ns": 1793925651198753000, "action": "set_mode", "previous": "normal", "mode": "latency", "revision": 1, "model_sha256": "f48c7496d5a12bd15d535721e3e83c6ef895b1ae7eaccbe7f4f4c60705bb1916"}
+{"timestamp_ns": 1793925694660317000, "action": "set_mode", "previous": "latency", "mode": "normal", "revision": 2, "model_sha256": "f48c7496d5a12bd15d535721e3e83c6ef895b1ae7eaccbe7f4f4c60705bb1916"}
+{"timestamp_ns": 1793925694950290000, "action": "set_mode", "previous": "normal", "mode": "degradation", "revision": 3, "model_sha256": "f48c7496d5a12bd15d535721e3e83c6ef895b1ae7eaccbe7f4f4c60705bb1916"}
+{"timestamp_ns": 1793925695246013000, "action": "set_mode", "previous": "degradation", "mode": "normal", "revision": 4, "model_sha256": "f48c7496d5a12bd15d535721e3e83c6ef895b1ae7eaccbe7f4f4c60705bb1916"}
+{"timestamp_ns": 1793925695517268000, "action": "set_mode", "previous": "normal", "mode": "normal", "revision": 5, "model_sha256": "f48c7496d5a12bd15d535721e3e83c6ef895b1ae7eaccbe7f4f4c60705bb1916"}

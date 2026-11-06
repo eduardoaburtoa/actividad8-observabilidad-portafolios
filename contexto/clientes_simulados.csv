@@ -1,0 +1,151 @@
+cliente_id,nombre,arquetipo,perfil_riesgo,posicion_mxn,fondo_actual,serie_actual,categoria_actual,rend_1_anio_actual,clase_activo,meses_sin_revision
+C001,Killer Croc,Villano,Moderado,11858000,BBVACR,P,Fondos de Estrategias Pesos,11.93,Deuda Corto Plazo,6
+C002,Wanda Maximoff,Héroe,Moderado,9732000,BBVAPZO,C1,Deuda Mediano Plazo,5.92,Deuda Corto Plazo,1
+C003,Victor Fries,Villano,Conservador,13840000,BBVADCB,P,Deuda Mediano Plazo,4.63,Deuda Corto Plazo,6
+C004,Killmonger Stevens,Villano,Moderado,8829000,BBVAMA2,P,Fondos de MultiActivos,-1.78,Deuda Corto Plazo,0
+C005,Black Manta,Villano,Moderado,13805000,BBVALIQ,P,Deuda Corto Plazo,4.76,Deuda Corto Plazo,8
+C006,Emil Blonsky,Villano,Moderado,13226000,BBVAPZO,B,Deuda Mediano Plazo,5.86,Deuda Corto Plazo,8
+C007,Kara Danvers,Héroe,Agresivo,9479000,BBVAMA2,P,Fondos de MultiActivos,-1.78,Deuda Corto Plazo,0
+C008,Arthur Curry,Héroe,Moderado,19096000,BBVAMA3,P,Fondos de MultiActivos,1.55,Deuda Corto Plazo,0
+C009,Solomon Grundy,Villano,Conservador,11177000,BBVAPZO,B,Deuda Mediano Plazo,5.86,Deuda Corto Plazo,5
+C010,Victor Stone,Héroe,Conservador,8645000,BBVALIQ,B,Deuda Corto Plazo,4.54,Deuda Corto Plazo,11
+C011,Mari McCabe,Héroe,Conservador,17665000,BBVADCB,P,Deuda Mediano Plazo,4.63,Deuda Corto Plazo,1
+C012,Susan Storm,Héroe,Agresivo,17334000,BBVADLP,C,Deuda Largo Plazo,4.28,Deuda Largo Plazo,8
+C013,Nebula Luphomoid,Villano,Conservador,6144000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,10
+C014,Eric Brooks,Héroe,Conservador,13626000,BBVAPZO,P1,Deuda Mediano Plazo,6.24,Deuda Corto Plazo,7
+C015,Arnim Zola,Villano,Agresivo,10297000,BBVANDQ,C,Renta Variable Internacional,9.41,Renta Variable Internacional,10
+C016,Jaime Reyes,Héroe,Conservador,9335000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,4
+C017,Typhoid Mary,Villano,Agresivo,14812000,BBVAMA3,P,Fondos de MultiActivos,1.55,Deuda Corto Plazo,7
+C018,Harvey Dent,Villano,Moderado,15381000,BBVAUDI,C,Deuda Largo Plazo,3.75,Deuda Largo Plazo,3
+C019,Taskmaster Masters,Villano,Moderado,8351000,BBVAGB2,B1,Deuda Corto Plazo,4.24,Deuda Corto Plazo,0
+C020,Danny Rand,Héroe,Moderado,11205000,BBVACR,C,Fondos de Estrategias Pesos,11.6,Deuda Corto Plazo,6
+C021,Wally West,Héroe,Moderado,13031000,BBVAPZO,C1,Deuda Mediano Plazo,5.92,Deuda Corto Plazo,9
+C022,Cable Summers,Villano,Agresivo,12740000,BBVARV,P,Renta Variable Nacional,12.74,Renta Variable Nacional,5
+C023,Captain Boomerang,Villano,Moderado,8066000,BBVALIQ,P,Deuda Corto Plazo,4.76,Deuda Corto Plazo,7
+C024,Cheetah Minerva,Villano,Moderado,6531000,BBVAMA3,C,Fondos de MultiActivos,1.08,Deuda Corto Plazo,8
+C025,Cletus Kasady,Villano,Moderado,17424000,BBVADLP,C,Deuda Largo Plazo,4.28,Deuda Largo Plazo,7
+C026,Ra's al Ghul,Villano,Moderado,7273000,BBVACR,P,Fondos de Estrategias Pesos,11.93,Deuda Corto Plazo,6
+C027,Jennifer Walters,Héroe,Agresivo,16101000,BBVAUDI,P,Deuda Largo Plazo,4.44,Deuda Largo Plazo,9
+C028,Hugo Strange,Villano,Moderado,8435000,BBVAPZO,C1,Deuda Mediano Plazo,5.92,Deuda Corto Plazo,5
+C029,Ronan Accuser,Villano,Agresivo,16792000,BBVADGA,P,Deuda Largo Plazo,3.34,Deuda Largo Plazo,9
+C030,Ororo Munroe,Héroe,Moderado,13667000,BBVAGF,P,Fondos de Estrategias Pesos,4.78,Deuda Corto Plazo,9
+C031,Baron Strucker,Villano,Conservador,7754000,BBVAPYM,PF1,Deuda Corto Plazo,4.39,Deuda Corto Plazo,7
+C032,Clark Kent,Héroe,Moderado,15812000,BBVAMA3,P,Fondos de MultiActivos,1.55,Deuda Corto Plazo,2
+C033,Tony Stark,Héroe,Conservador,12675000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,4
+C034,Johnny Storm,Héroe,Conservador,15644000,BBVADCB,C,Deuda Mediano Plazo,4.64,Deuda Corto Plazo,6
+C035,Kate Kane,Héroe,Conservador,13148000,BBVADCB,P,Deuda Mediano Plazo,4.63,Deuda Corto Plazo,7
+C036,Erik Lehnsherr,Villano,Agresivo,19476000,BBVADLP,C,Deuda Largo Plazo,4.28,Deuda Largo Plazo,1
+C037,Slade Wilson,Villano,Moderado,13702000,BBVAPZO,P1,Deuda Mediano Plazo,6.24,Deuda Corto Plazo,10
+C038,Adrian Toomes,Villano,Conservador,12439000,BBVALIQ,P,Deuda Corto Plazo,4.76,Deuda Corto Plazo,8
+C039,Barry Allen,Héroe,Conservador,6497000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,7
+C040,Kurt Wagner,Héroe,Conservador,7620000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,10
+C041,Madame Hydra,Villano,Conservador,12267000,BBVAGUB,P,Deuda Corto Plazo,4.57,Deuda Corto Plazo,2
+C042,Ted Kord,Héroe,Moderado,10566000,BBVAPZO,P1,Deuda Mediano Plazo,6.24,Deuda Corto Plazo,3
+C043,Harley Quinzel,Villano,Conservador,18007000,BBVAMRF,C,Retorno Absoluto,4.77,Deuda Largo Plazo,8
+C044,Jefferson Pierce,Héroe,Moderado,15051000,BBVARF,C1,Deuda Corto Plazo,4.4,Deuda Corto Plazo,0
+C045,Leonard Snart,Villano,Moderado,17828000,BBVAGF,P,Fondos de Estrategias Pesos,4.78,Deuda Corto Plazo,4
+C046,Luke Cage,Héroe,Moderado,9871000,BBVACR,P,Fondos de Estrategias Pesos,11.93,Deuda Corto Plazo,2
+C047,Helmut Zemo,Villano,Moderado,12943000,BBVAPZO,P1,Deuda Mediano Plazo,6.24,Deuda Corto Plazo,2
+C048,Dick Grayson,Héroe,Conservador,10574000,BBVAMRF,C,Retorno Absoluto,4.77,Deuda Largo Plazo,9
+C049,Cassandra Cain,Héroe,Agresivo,11173000,BBVARV,P,Renta Variable Nacional,12.74,Renta Variable Nacional,10
+C050,Kamala Khan,Héroe,Conservador,7272000,BBVAMRF,C,Retorno Absoluto,4.77,Deuda Largo Plazo,0
+C051,Mystique Darkholme,Villano,Agresivo,7331000,BBVAEMG,B,Renta Variable Internacional,19.02,Renta Variable Internacional,2
+C052,Max Dillon,Villano,Conservador,5257000,BBVADCB,P,Deuda Mediano Plazo,4.63,Deuda Corto Plazo,5
+C053,Koriandr Anders,Héroe,Agresivo,11241000,BBVADGA,P,Deuda Largo Plazo,3.34,Deuda Largo Plazo,4
+C054,Selina Kyle,Villano,Moderado,14366000,BBVACR,P,Fondos de Estrategias Pesos,11.93,Deuda Corto Plazo,6
+C055,Cain Marko,Villano,Agresivo,8666000,BBVADIG,P,Renta Variable Internacional,5.1,Renta Variable Internacional,4
+C056,Emma Frost,Villano,Moderado,18493000,BBVACOR,C,Deuda Largo Plazo,5.91,Deuda Largo Plazo,10
+C057,Jessica Jones,Héroe,Agresivo,6229000,BBVAMA2,C,Fondos de MultiActivos,-2.23,Deuda Corto Plazo,10
+C058,Dinah Lance,Héroe,Moderado,7650000,B+EDUCA,B,Deuda Corto Plazo,5.67,Deuda Corto Plazo,1
+C059,Zatanna Zatara,Héroe,Agresivo,15588000,BBVADIG,P,Renta Variable Internacional,5.1,Renta Variable Internacional,9
+C060,Natasha Romanoff,Héroe,Conservador,8801000,BBVAPZO,C1,Deuda Mediano Plazo,5.92,Deuda Corto Plazo,4
+C061,Nathaniel Essex,Villano,Conservador,7051000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,9
+C062,Miles Morales,Héroe,Conservador,7136000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,0
+C063,Vandal Savage,Villano,Conservador,19164000,BBVAMRF,C,Retorno Absoluto,4.77,Deuda Largo Plazo,11
+C064,Charles Xavier,Héroe,Moderado,10219000,BBVAPYM,PF1,Deuda Corto Plazo,4.39,Deuda Corto Plazo,3
+C065,Frank Castle,Héroe,Moderado,19069000,BBVAUDI,P,Deuda Largo Plazo,4.44,Deuda Largo Plazo,10
+C066,Helena Bertinelli,Héroe,Conservador,9271000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,10
+C067,Thanos Titan,Villano,Conservador,11733000,BBVADCB,C,Deuda Mediano Plazo,4.64,Deuda Corto Plazo,2
+C068,Reverse Flash,Villano,Conservador,14447000,BBVADCB,P,Deuda Mediano Plazo,4.63,Deuda Corto Plazo,1
+C069,Gorilla Grodd,Villano,Agresivo,12435000,BBVARV,P,Renta Variable Nacional,12.74,Renta Variable Nacional,3
+C070,Bucky Barnes,Héroe,Moderado,9243000,BBVACR,C,Fondos de Estrategias Pesos,11.6,Deuda Corto Plazo,0
+C071,Ajax Francis,Villano,Moderado,15298000,BBVAGF,P,Fondos de Estrategias Pesos,4.78,Deuda Corto Plazo,11
+C072,Matt Murdock,Héroe,Agresivo,7434000,BBVAGLP,C,Deuda Largo Plazo,1.1,Deuda Largo Plazo,9
+C073,Carol Danvers,Héroe,Moderado,10387000,BBVAPZO,P1,Deuda Mediano Plazo,6.24,Deuda Corto Plazo,7
+C074,Eobard Thawne,Villano,Conservador,10908000,B+EDUCA,B,Deuda Corto Plazo,5.67,Deuda Corto Plazo,3
+C075,Domino Neena,Villano,Conservador,18263000,BBVAPZO,P1,Deuda Mediano Plazo,6.24,Deuda Corto Plazo,0
+C076,Red Skull,Villano,Agresivo,11800000,BBVADIG,P,Renta Variable Internacional,5.1,Renta Variable Internacional,1
+C077,Ben Grimm,Héroe,Conservador,7163000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,5
+C078,Sam Wilson,Héroe,Moderado,9564000,BBVAGB2,B1,Deuda Corto Plazo,4.24,Deuda Corto Plazo,3
+C079,Bulldozer Brooks,Villano,Conservador,18742000,BBVAGUB,P,Deuda Corto Plazo,4.57,Deuda Corto Plazo,2
+C080,Norman Osborn,Villano,Conservador,6215000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,8
+C081,Scarecrow Mason,Villano,Moderado,18448000,BBVAGLP,C,Deuda Largo Plazo,1.1,Deuda Largo Plazo,10
+C082,Loki Laufeyson,Villano,Conservador,16519000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,6
+C083,John Stewart,Héroe,Conservador,7254000,BBVAPZO,P1,Deuda Mediano Plazo,6.24,Deuda Corto Plazo,9
+C084,Pamela Isley,Villano,Conservador,14079000,BBVAPZO,C1,Deuda Mediano Plazo,5.92,Deuda Corto Plazo,9
+C085,Clayface Hagen,Villano,Conservador,9262000,BBVAGUB,C,Deuda Corto Plazo,4.42,Deuda Corto Plazo,0
+C086,Jonathan Crane,Villano,Agresivo,12462000,BBVANSH,C,Renta Variable Internacional,7.21,Renta Variable Internacional,4
+C087,Oliver Queen,Héroe,Moderado,9666000,BBVAMA3,P,Fondos de MultiActivos,1.55,Deuda Corto Plazo,2
+C088,Kaecilius Adria,Villano,Agresivo,9284000,BBVARV,C,Renta Variable Nacional,12.09,Renta Variable Nacional,3
+C089,Mister Sinister,Villano,Moderado,10880000,BBVALIQ,B,Deuda Corto Plazo,4.54,Deuda Corto Plazo,3
+C090,Arcade Gamesmith,Villano,Agresivo,18179000,BBVADGA,C,Deuda Largo Plazo,3.1,Deuda Largo Plazo,4
+C091,Jean Grey,Héroe,Moderado,5186000,BBVADGA,C,Deuda Largo Plazo,3.1,Deuda Largo Plazo,5
+C092,Peter Quill,Héroe,Moderado,11020000,BBVAGF,C,Fondos de Estrategias Pesos,4.17,Deuda Corto Plazo,0
+C093,Shuri Udaku,Héroe,Conservador,18560000,B+EDUCA,B,Deuda Corto Plazo,5.67,Deuda Corto Plazo,5
+C094,Courtney Whitmore,Héroe,Moderado,13659000,BBVALIQ,C,Deuda Corto Plazo,4.61,Deuda Corto Plazo,7
+C095,Killer Frost,Villano,Conservador,6582000,BBVAPZO,C1,Deuda Mediano Plazo,5.92,Deuda Corto Plazo,10
+C096,Monica Rambeau,Héroe,Moderado,13138000,BBVALIQ,B,Deuda Corto Plazo,4.54,Deuda Corto Plazo,8
+C097,Hank McCoy,Héroe,Moderado,8396000,BBVAPZO,C1,Deuda Mediano Plazo,5.92,Deuda Corto Plazo,1
+C098,En Sabah Nur,Villano,Conservador,10209000,BBVAGUB,P,Deuda Corto Plazo,4.57,Deuda Corto Plazo,8
+C099,Baron Mordo,Villano,Conservador,7634000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,2
+C100,Deadshot Lawton,Villano,Moderado,15138000,BBVAPYM,PF1,Deuda Corto Plazo,4.39,Deuda Corto Plazo,6
+C101,Rick Tyler,Héroe,Conservador,11812000,BBVADCB,P,Deuda Mediano Plazo,4.63,Deuda Corto Plazo,1
+C102,Oswald Cobblepot,Villano,Conservador,5368000,BBVAMRF,C,Retorno Absoluto,4.77,Deuda Largo Plazo,9
+C103,Ulysses Klaue,Villano,Agresivo,13027000,BBVARV,C,Renta Variable Nacional,12.09,Renta Variable Nacional,0
+C104,Eddie Brock,Villano,Moderado,15135000,BBVAMA2,P,Fondos de MultiActivos,-1.78,Deuda Corto Plazo,8
+C105,Yondu Udonta,Villano,Agresivo,12225000,BBVANDQ,P,Renta Variable Internacional,10.05,Renta Variable Internacional,6
+C106,Bruce Banner,Héroe,Agresivo,16692000,BBVAGLP,P,Deuda Largo Plazo,1.81,Deuda Largo Plazo,3
+C107,Reed Richards,Héroe,Conservador,7098000,BBVAMRF,C,Retorno Absoluto,4.77,Deuda Largo Plazo,4
+C108,Piotr Rasputin,Héroe,Conservador,8908000,BBVAMRF,P,Retorno Absoluto,5.11,Deuda Largo Plazo,7
+C109,Diana Prince,Héroe,Moderado,13700000,BBVACR,C,Fondos de Estrategias Pesos,11.6,Deuda Corto Plazo,7
+C110,Dormammu Faltine,Villano,Conservador,12344000,BBVAPZO,P1,Deuda Mediano Plazo,6.24,Deuda Corto Plazo,11
+C111,Lex Luthor,Villano,Conservador,17278000,BBVAPYM,PF3,Deuda Corto Plazo,4.57,Deuda Corto Plazo,9
+C112,Donna Troy,Héroe,Moderado,15984000,BBVAPZO,B,Deuda Mediano Plazo,5.86,Deuda Corto Plazo,11
+C113,Garfield Logan,Héroe,Moderado,10642000,BBVAMA3,C,Fondos de MultiActivos,1.08,Deuda Corto Plazo,0
+C114,Purple Man,Villano,Moderado,11373000,BBVAUDI,C,Deuda Largo Plazo,3.75,Deuda Largo Plazo,6
+C115,Marc Spector,Héroe,Conservador,12019000,BBVALIQ,C,Deuda Corto Plazo,4.61,Deuda Corto Plazo,10
+C116,Otto Octavius,Villano,Agresivo,17922000,BBVARV,P,Renta Variable Nacional,12.74,Renta Variable Nacional,10
+C117,Peter Parker,Héroe,Conservador,19690000,BBVADCB,C,Deuda Mediano Plazo,4.64,Deuda Corto Plazo,6
+C118,Poison Lily,Villano,Moderado,12302000,BBVAMA3,P,Fondos de MultiActivos,1.55,Deuda Corto Plazo,9
+C119,Rachel Roth,Héroe,Agresivo,14561000,BBVARV,C,Renta Variable Nacional,12.09,Renta Variable Nacional,8
+C120,Anna Marie,Héroe,Agresivo,17650000,BBVANSH,P,Renta Variable Internacional,7.86,Renta Variable Internacional,0
+C121,Ultron Prime,Villano,Moderado,12469000,BBVAMA2,C,Fondos de MultiActivos,-2.23,Deuda Corto Plazo,10
+C122,Bullseye Poindexter,Villano,Moderado,10078000,BBVAGF,P,Fondos de Estrategias Pesos,4.78,Deuda Corto Plazo,11
+C123,Robert Reynolds,Héroe,Moderado,8632000,BBVAGF,C,Fondos de Estrategias Pesos,4.17,Deuda Corto Plazo,7
+C124,Barbara Gordon,Héroe,Moderado,19289000,BBVAGF,P,Fondos de Estrategias Pesos,4.78,Deuda Corto Plazo,6
+C125,Floyd Lawton,Villano,Moderado,6059000,BBVADCB,P,Deuda Mediano Plazo,4.63,Deuda Corto Plazo,11
+C126,Quentin Beck,Villano,Moderado,10917000,BBVAGF,C,Fondos de Estrategias Pesos,4.17,Deuda Corto Plazo,9
+C127,Edward Nygma,Villano,Conservador,18523000,BBVAPZO,B,Deuda Mediano Plazo,5.86,Deuda Corto Plazo,1
+C128,Elektra Natchios,Héroe,Agresivo,6303000,BBVARV,C,Renta Variable Nacional,12.09,Renta Variable Nacional,10
+C129,Victor Von Doom,Villano,Moderado,16826000,BBVAMA2,C,Fondos de MultiActivos,-2.23,Deuda Corto Plazo,2
+C130,Stephen Strange,Héroe,Moderado,15631000,BBVAPZO,P1,Deuda Mediano Plazo,6.24,Deuda Corto Plazo,2
+C131,Flint Marko,Villano,Conservador,8165000,BBVAMRF,C,Retorno Absoluto,4.77,Deuda Largo Plazo,0
+C132,Remy LeBeau,Héroe,Moderado,7113000,BBVAMA3,C,Fondos de MultiActivos,1.08,Deuda Corto Plazo,11
+C133,Jennifer Kale,Héroe,Agresivo,6760000,BBVARV,P,Renta Variable Nacional,12.74,Renta Variable Nacional,5
+C134,Ryan Choi,Héroe,Agresivo,11663000,BBVAMA3,C,Fondos de MultiActivos,1.08,Deuda Corto Plazo,8
+C135,Logan Howlett,Héroe,Conservador,15851000,BBVAPYM,PF3,Deuda Corto Plazo,4.57,Deuda Corto Plazo,6
+C136,Matt Hawkins,Héroe,Agresivo,15206000,BBVACOR,P,Deuda Largo Plazo,6.24,Deuda Largo Plazo,4
+C137,Sinestro,Villano,Agresivo,19362000,BBVADGA,P,Deuda Largo Plazo,3.34,Deuda Largo Plazo,11
+C138,Hal Jordan,Héroe,Moderado,11459000,BBVARF,C1,Deuda Corto Plazo,4.4,Deuda Corto Plazo,2
+C139,Scott Lang,Héroe,Agresivo,5483000,BBVAMA2,C,Fondos de MultiActivos,-2.23,Deuda Corto Plazo,11
+C140,Thor Odinson,Héroe,Moderado,13069000,BBVAPYM,PF1,Deuda Corto Plazo,4.39,Deuda Corto Plazo,3
+C141,Wilson Fisk,Villano,Agresivo,13012000,BBVARV,P,Renta Variable Nacional,12.74,Renta Variable Nacional,0
+C142,Adam Brashear,Héroe,Moderado,7483000,BBVAGUB,C,Deuda Corto Plazo,4.42,Deuda Corto Plazo,4
+C143,Billy Batson,Héroe,Moderado,18584000,BBVAMA2,P,Fondos de MultiActivos,-1.78,Deuda Corto Plazo,8
+C144,Steve Rogers,Héroe,Conservador,12804000,BBVAGUB,C,Deuda Corto Plazo,4.42,Deuda Corto Plazo,1
+C145,Riri Williams,Héroe,Moderado,14709000,BBVAPZO,B,Deuda Mediano Plazo,5.86,Deuda Corto Plazo,4
+C146,Bruce Wayne,Héroe,Moderado,17590000,BBVAMA2,C,Fondos de MultiActivos,-2.23,Deuda Corto Plazo,9
+C147,Deathstroke Grim,Villano,Moderado,5465000,BBVAPZO,C1,Deuda Mediano Plazo,5.92,Deuda Corto Plazo,0
+C148,Scott Summers,Héroe,Moderado,15296000,BBVAPZO,C1,Deuda Mediano Plazo,5.92,Deuda Corto Plazo,9
+C149,Crossbones Rumlow,Villano,Moderado,14332000,BBVAPZO,P1,Deuda Mediano Plazo,6.24,Deuda Corto Plazo,4
+C150,Sebastian Shaw,Villano,Agresivo,18445000,BBVAMA3,P,Fondos de MultiActivos,1.55,Deuda Corto Plazo,1

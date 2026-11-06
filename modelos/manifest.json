@@ -1,0 +1,11 @@
+{
+  "modelo": "SVM calibrada",
+  "sha256": "f48c7496d5a12bd15d535721e3e83c6ef895b1ae7eaccbe7f4f4c60705bb1916",
+  "threshold": 0.2,
+  "source_commit": "fefe906fbf915e30ee3673b7046ae9d95f35dba2",
+  "source_repo": "eduardoaburtoa/actividad6-evaluacion-portafolios",
+  "language": "en",
+  "positive_class": "negative",
+  "sklearn": "1.6.1",
+  "scope": "Acad\u00e9mico; test retrospectivo; no recomendaci\u00f3n financiera"
+}

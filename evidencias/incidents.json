@@ -1,0 +1,35 @@
+[
+  {
+    "id": "INC-001",
+    "type": "latency",
+    "injected_at": 1793925651.197387,
+    "detected_at": 1793925694.654464,
+    "corrected_at": 1793925694.662067,
+    "resolved_at": 1793925694.9456189,
+    "status": "resolved",
+    "detection_seconds": 43.45707702636719,
+    "recovery_seconds": 0.2911548614501953
+  },
+  {
+    "id": "INC-002",
+    "type": "degradation",
+    "injected_at": 1793925694.949149,
+    "detected_at": 1793925695.244593,
+    "corrected_at": 1793925695.246488,
+    "resolved_at": 1793925695.5125399,
+    "status": "resolved",
+    "detection_seconds": 0.2954440116882324,
+    "recovery_seconds": 0.2679469585418701
+  },
+  {
+    "id": "INC-003",
+    "type": "drift",
+    "injected_at": 1793925695.5161972,
+    "detected_at": 1793925695.813705,
+    "corrected_at": 1793925695.814046,
+    "resolved_at": 1793925696.074583,
+    "status": "resolved",
+    "detection_seconds": 0.29750776290893555,
+    "recovery_seconds": 0.2608780860900879
+  }
+]
