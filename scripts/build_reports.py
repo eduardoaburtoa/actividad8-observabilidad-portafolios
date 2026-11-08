@@ -29,6 +29,7 @@ def p(d,t):d.add_paragraph(t)
 def page(d):d.add_page_break()
 def table(d,heads,rows):
  t=d.add_table(rows=1,cols=len(heads));t.autofit=False
+ t.rows[0]._tr.get_or_add_trPr().append(OxmlElement('w:tblHeader'))
  for c,v in zip(t.rows[0].cells,heads):c.text=str(v)
  for row in rows:
   for c,v in zip(t.add_row().cells,row):c.text=str(v)
@@ -46,6 +47,7 @@ def table(d,heads,rows):
  d.add_paragraph()
 def image(d,name,width=6):
  d.add_picture(str(E/name),width=Inches(width))
+ d.paragraphs[-1].paragraph_format.keep_with_next=True
  n=sum(pa.text.startswith('Figura ') for pa in d.paragraphs)+1
  captions={'streamlit.png':'Dashboard Streamlit: servicio y presupuesto; última corrida local.', 'dashboard_mediciones.png':'Mediciones originales por ventana: latencia, calidad y drift de longitud.', 'presupuesto_alertas.png':'Consumo de presupuesto y reducción de notificaciones.', 'mlflow.png':'Panel MLflow: corrida original finalizada y parámetros registrados.', 'modelo.png':'Vista Modelo y drift: calidad y PSI por ventana.', 'incidentes.png':'Vista Incidentes y runbooks: aperturas, cierres y acciones registradas.', 'trazabilidad.png':'Vista Trazabilidad: resumen, MLflow y correlación local de spans.'}
  p(d,f"Figura {n}. {captions.get(name,name)} Fuente: elaboración propia, laboratorio local; no tráfico bancario.")
@@ -136,7 +138,7 @@ p(d,'La persistencia evita avisar por un único incumplimiento. La deduplicació
 p(d,'El motor observó seis ventanas que habrían generado aviso individual y emitió tres aperturas: reducción del 50 % frente a esa política simple. No infiero una tasa de falsos positivos ni una validación estadística con tres incidentes. En producción incorporaría ventanas temporales cortas y largas y guardias; aquí la persistencia usa dos ventanas consecutivas de solicitudes.')
 h(d,'Data drift y límites del diagnóstico')
 p(d,'Calculo PSI = suma de (q − p) × ln(q/p), usando proporciones suavizadas. El experimento repite ocho veces cada texto para desplazar la longitud. La alerta indica cambio de entrada, no prueba pérdida de capacidad predictiva. No cubre cambios semánticos de igual longitud, idioma, etiquetas ni concept drift. Para producción añadiría seguimiento de embeddings y calidad con etiquetas retrasadas, por segmentos y con tamaño muestral suficiente.')
-h(d,'Dashboard para decidir')
+page(d);h(d,'Dashboard para decidir')
 p(d,'La vista Servicio presenta disponibilidad, p95, burn rate, presupuesto, tráfico y memoria. Modelo muestra precisión, recall, F1 y PSI. Incidentes permite examinar aperturas, cierres y pasos del runbook. Trazabilidad expone resumen, corrida MLflow y spans. Cuando el laboratorio está detenido, el tablero indica que muestra la última corrida; no presenta esos datos como tráfico vivo.')
 table(d,['Panel / refresco','Indicadores / condición crítica','Decisión del operador'],[
 ['Servicio y presupuesto / 3 s','Disponibilidad, p95, burn, saldo, tráfico y RSS. Burn >2 en dos ventanas; presupuesto negativo evidencia incumplimiento.','Revisar RB01, distinguir latencia de disponibilidad y preservar el consumo histórico. RSS de 512 MB es planificación, sin alerta automática.'],
@@ -145,8 +147,8 @@ table(d,['Panel / refresco','Indicadores / condición crítica','Decisión del o
 ['Trazabilidad / 3 s','Resumen, corrida MLflow y spans correlacionados por trace_id. No tiene umbral de color.','Reconstruir la solicitud y versión para auditar la causa sin exponer noticias ni claves.']])
 p(d,'La columna de condición crítica define cuándo intervenir; la interfaz actual no pinta automáticamente todos los umbrales en rojo. El refresco de tres segundos relee archivos: no genera tráfico ni nuevas mediciones. Distingo disponibilidad de la vista y frescura de los datos antes de decidir sobre continuidad del servicio.')
 page(d);h(d,'Dashboard: lectura de evidencia visual')
-image(d,'streamlit.png',5.8)
-image(d,'dashboard_mediciones.png',5.8)
+image(d,'streamlit.png',5.0)
+image(d,'dashboard_mediciones.png',5.0)
 p(d,'Leo primero el estado actual y después la serie histórica. Cero alertas al cierre no borra las ventanas degradadas; la serie permite comprobar el daño y su recuperación.')
 page(d);h(d,'Runbooks de respuesta a incidentes')
 table(d,['Regla y disparador','Diagnóstico y corrección','Cierre y escalamiento'],[
@@ -180,7 +182,7 @@ page(d);budget(d)
 h(d,'Presupuesto y política de notificación')
 image(d,'presupuesto_alertas.png',6)
 p(d,'El SLO agregado de latencia no se cumple: 120 solicitudes consumidas frente a 9 permitidas. La disponibilidad sí conserva su presupuesto. La política de persistencia reduce de seis avisos por ventana a tres aperturas; no convierte el incidente en un éxito de SLO ni acredita ausencia de falsos positivos.')
-h(d,'Registro real en MLflow')
+page(d);h(d,'Registro real en MLflow')
 p(d,'Experimento: Actividad8_observabilidad_portafolios. Run ID: '+s['mlflow_run_id']+'. Estado leído con MlflowClient.get_run: FINISHED. Se registraron configuración de SLO, semilla, hash, referencia de código y 15 pasos de métricas. Los artefactos incluyen solicitudes, ventanas, incidentes, logs y spans. El archivo mlflow_export.json es una exportación del servicio local, no una tabla escrita manualmente.')
 table(d,['Evidencia','Ubicación relativa'],[['Parámetros y estado','evidencias/mlflow_export.json'],['Mediciones por ventana','evidencias/windows.json'],['Solicitudes y trace_id','evidencias/requests.jsonl'],['Aperturas y cierres','evidencias/alerts.json'],['Pasos ejecutados','evidencias/runbook_steps.json'],['Pruebas automatizadas','evidencias/pytest.xml']])
 page(d);h(d,'Verificación y reproducción')

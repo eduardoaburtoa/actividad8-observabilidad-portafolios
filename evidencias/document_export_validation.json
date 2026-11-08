@@ -1,0 +1,32 @@
+{
+  "Documento_tecnico": {
+    "url": "https://docs.google.com/document/d/1-DStylkW7mW17Qdpj9g-uxETDyGbEEtasdzIzSjp1Mg/edit",
+    "verified_date": "2026-11-07",
+    "incognito_read_access": true,
+    "google_pdf_pages": 15,
+    "docx_paragraphs_missing_google_text": 0,
+    "docx_paragraphs_missing_google_pdf": 0,
+    "docx_sha256": "d99d656111597077425de725791d1c657bc299b53194e80e4006993cb8123f1e",
+    "pdf_sha256": "72d3d4ea988d4c352f1dc6e5d415008e1bc222557aff3c4704f466b168eb3879"
+  },
+  "Evidencia_implementacion": {
+    "url": "https://docs.google.com/document/d/1kfE5N71RCpxyjlwEpxE_tJGuRY7CpFboSdRzApfX6qU/edit",
+    "verified_date": "2026-11-07",
+    "incognito_read_access": true,
+    "google_pdf_pages": 13,
+    "docx_paragraphs_missing_google_text": 0,
+    "docx_paragraphs_missing_google_pdf": 0,
+    "docx_sha256": "1da401ed07379498e8fc8319a8769c6fca342004742a5252ad891ceca2199d46",
+    "pdf_sha256": "367c08f342984639efa9d8800cc3dcb29d486cab79e0e0f6842a804b643b8968"
+  },
+  "Simulacion_incidentes": {
+    "url": "https://docs.google.com/document/d/1EKSEgWnlxt1bbbTSyjD0Cb_J-xvNY3GnGHlA1ACmJwM/edit",
+    "verified_date": "2026-11-07",
+    "incognito_read_access": true,
+    "google_pdf_pages": 10,
+    "docx_paragraphs_missing_google_text": 0,
+    "docx_paragraphs_missing_google_pdf": 0,
+    "docx_sha256": "fdfc7303761b1a60ae8754832e28bf5063c0d687c31df00440b47e96af6cf6ee",
+    "pdf_sha256": "6f9cdc21beee65a3deaf8c6c28c6e548899df95d62483537ba293fbaef47cbfe"
+  }
+}

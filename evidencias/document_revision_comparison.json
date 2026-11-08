@@ -1,0 +1,81 @@
+{
+  "Documento_tecnico": {
+    "before": {
+      "numbered_figures": 0,
+      "references_sections": 0,
+      "explicit_required_sections": {
+        "Indicadores y contratos de medición": true,
+        "Alertas y reducción de ruido": true,
+        "Dashboard para decidir": true,
+        "Runbooks de respuesta a incidentes": false,
+        "Data drift y límites del diagnóstico": true,
+        "Respuesta automatizada y gobernanza": true
+      }
+    },
+    "after": {
+      "numbered_figures": 2,
+      "references_sections": 1,
+      "explicit_required_sections": {
+        "Indicadores y contratos de medición": true,
+        "Alertas y reducción de ruido": true,
+        "Dashboard para decidir": true,
+        "Runbooks de respuesta a incidentes": true,
+        "Data drift y límites del diagnóstico": true,
+        "Respuesta automatizada y gobernanza": true
+      }
+    }
+  },
+  "Evidencia_implementacion": {
+    "before": {
+      "numbered_figures": 0,
+      "references_sections": 0,
+      "explicit_required_sections": {
+        "Indicadores y contratos de medición": false,
+        "Alertas y reducción de ruido": false,
+        "Dashboard para decidir": false,
+        "Runbooks de respuesta a incidentes": false,
+        "Data drift y límites del diagnóstico": false,
+        "Respuesta automatizada y gobernanza": false
+      }
+    },
+    "after": {
+      "numbered_figures": 7,
+      "references_sections": 1,
+      "explicit_required_sections": {
+        "Indicadores y contratos de medición": false,
+        "Alertas y reducción de ruido": false,
+        "Dashboard para decidir": false,
+        "Runbooks de respuesta a incidentes": false,
+        "Data drift y límites del diagnóstico": false,
+        "Respuesta automatizada y gobernanza": false
+      }
+    }
+  },
+  "Simulacion_incidentes": {
+    "before": {
+      "numbered_figures": 0,
+      "references_sections": 0,
+      "explicit_required_sections": {
+        "Indicadores y contratos de medición": false,
+        "Alertas y reducción de ruido": false,
+        "Dashboard para decidir": false,
+        "Runbooks de respuesta a incidentes": false,
+        "Data drift y límites del diagnóstico": false,
+        "Respuesta automatizada y gobernanza": false
+      }
+    },
+    "after": {
+      "numbered_figures": 0,
+      "references_sections": 1,
+      "explicit_required_sections": {
+        "Indicadores y contratos de medición": false,
+        "Alertas y reducción de ruido": false,
+        "Dashboard para decidir": false,
+        "Runbooks de respuesta a incidentes": false,
+        "Data drift y límites del diagnóstico": false,
+        "Respuesta automatizada y gobernanza": false
+      }
+    }
+  },
+  "method": "Seis apartados medidos por encabezado propio exacto en el documento técnico; referencias cuenta encabezado Referencias (no ausencia de fuentes); figuras cuenta pies Figura N."
+}

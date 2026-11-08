@@ -1,0 +1,20 @@
+{
+  "Documento_tecnico": {
+    "Indicadores y contratos de medición": 4,
+    "Alertas y presupuesto de error (error budget)": 5,
+    "Runbooks de respuesta a incidentes": 9,
+    "Respuesta automatizada y gobernanza": 10
+  },
+  "Evidencia_implementacion": {
+    "Recorrido del dashboard: cuatro vistas": 8,
+    "Alertas y presupuesto de error (error budget)": 4,
+    "Tiempos por incidente y exposición antes de detectar": 10,
+    "Registro real en MLflow": 5
+  },
+  "Simulacion_incidentes": {
+    "Diseño de la prueba": 3,
+    "Alertas y presupuesto de error (error budget)": 5,
+    "Incidente de calidad": 4,
+    "Resultados y decisiones": 6
+  }
+}

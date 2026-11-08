@@ -1,3 +1,13 @@
+## 2026-11-07 · Cierre documental de la revisión
+
+- Ramas 01–05 fusionadas en orden mediante PR 1–5, cada una con Actions en verde: runbooks; dashboard; presupuesto de error; análisis por incidente; cierre formal.
+- Rama 06: exportación única al cierre de las mejoras, con ajustes de maquetación. Tres Word/PDF revisados: 15, 13 y 10 páginas. Cobertura comprobada contra los PDF; concordancia de todos los párrafos y celdas entre Word, PDF y los tres Google Docs.
+- Google Docs actualizados en sus enlaces originales y abiertos en incógnito como lector. Las copias intermedias de conversión permanecen privadas y no son los enlaces de entrega.
+- Capturas de Modelo, Incidentes y Trazabilidad obtenidas del tablero con la corrida conservada; no se ejecutó `run_lab.py`.
+- Mediana de detección 0.298 s frente a media 14.683 s; INC-001 acumuló 120 solicitudes lentas antes de detectarse. Son cálculos derivados de registros originales.
+- Nueve pruebas y verificador sin cambios; modelo y umbral intactos. Se añade `verify_documents.py` para comprobar concordancia y páginas de cobertura.
+- Rama 07 opcional descartada: el PDF de evidencia ya contiene las cuatro vistas, MLflow y cronologías; mantener una presentación duplicaría el material y dificultaría su consistencia. La decisión se documenta en un PR separado, cerrado sin fusionar.
+
 # Historial
 
 ## 1.0.0 — 5 de noviembre de 2026
