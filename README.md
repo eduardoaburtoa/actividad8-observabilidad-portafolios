@@ -19,14 +19,14 @@ Implementé un laboratorio que detecta y recupera incidentes del servicio de cla
 
 ## Editar en Google Docs
 
-[Documento técnico](https://docs.google.com/document/d/1-DStylkW7mW17Qdpj9g-uxETDyGbEEtasdzIzSjp1Mg/edit) · [Evidencia de implementación](https://docs.google.com/document/d/1kfE5N71RCpxyjlwEpxE_tJGuRY7CpFboSdRzApfX6qU/edit) · [Simulación de incidentes](https://docs.google.com/document/d/1EKSEgWnlxt1bbbTSyjD0Cb_J-xvNY3GnGHlA1ACmJwM/edit). Copias editables en la cuenta del autor; los PDF y Word de este repositorio son accesibles públicamente.
+[Documento técnico](https://docs.google.com/document/d/1-DStylkW7mW17Qdpj9g-uxETDyGbEEtasdzIzSjp1Mg/edit) · [Evidencia de implementación](https://docs.google.com/document/d/1kfE5N71RCpxyjlwEpxE_tJGuRY7CpFboSdRzApfX6qU/edit) · [Simulación de incidentes](https://docs.google.com/document/d/1EKSEgWnlxt1bbbTSyjD0Cb_J-xvNY3GnGHlA1ACmJwM/edit). Documentos actualizados en sus enlaces originales: editables por el autor y con lectura pública comprobada en incógnito el 7 de noviembre de 2026. Los PDF y Word del repositorio contienen el mismo texto; la tabla de cobertura remite a la paginación PDF/Word verificada.
 
 ## Resultado que conviene interpretar
 
 - **Disponibilidad: 900/900 solicitudes exitosas.** Presupuesto permitido: 9 fallas; consumido: 0.
 - **Latencia: 120/900 solicitudes lentas.** Presupuesto permitido: 9; consumido: 120. El SLO agregado de 99 % **no se cumplió**, aunque terminó recuperado.
 - **Tres alertas emitidas frente a seis avisos por ventanas con incumplimiento:** 50 % menos notificaciones respecto de avisar cada ventana. Esto no mide una tasa de falsos positivos.
-- Detección media: **14.683 s**; recuperación media desde detección hasta dos ventanas sanas: **0.273 s**. Son tres incidentes locales y secuenciales, no compromisos de producción.
+- Detección mediana: **0.298 s**, media: **14.683 s** y máximo: **43.457 s**. La mediana describe mejor el caso típico de estos tres ensayos; la media revela la exposición prolongada. [Cálculo por incidente](evidencias/incident_analysis.json): **120 solicitudes lentas antes de detectar INC-001**; recuperación media desde detección hasta dos ventanas sanas: **0.273 s**. Son tres incidentes locales y secuenciales, no compromisos de producción.
 - Calidad del canario normal: precisión 0.9048, recall 0.9500 y F1 0.9268. Son 60 textos históricos repetidos; no una evaluación independiente ni una promesa de rendimiento financiero.
 
 ## Cobertura de la rúbrica
@@ -38,7 +38,33 @@ Implementé un laboratorio que detecta y recupera incidentes del servicio de cla
 | Simulación y respuesta | Latencia, degradación de salida y drift de longitud; [incidentes](evidencias/incidents.json) y ejecución de runbooks |
 | Documentación y automatización | Tres reportes, rollback de configuración, cuarentena y escalamiento local; no reentrenamiento ni operaciones financieras automáticas |
 
-## Reproducir desde cero
+## Revisión final y validación sin alterar la evidencia
+
+Los seis apartados exigidos tienen sección propia en el informe técnico (antes: cinco). Hay **2 figuras numeradas** en el documento técnico, **7** en evidencias y **0** en simulación, que presenta tablas. Los tres reportes incluyen referencias, conclusiones y cobertura por página. [Comparación antes/después](evidencias/document_revision_comparison.json) · [Concordancia Word/PDF/Google Docs](evidencias/document_export_validation.json).
+
+```bash
+python -m pip install -r requirements.txt
+python -m pip install pypdf==6.1.1
+python -m pytest pruebas -q
+python scripts/verify_evidence.py
+python scripts/analyze_incidents.py
+python scripts/verify_documents.py
+```
+
+Estos comandos no ejecutan el laboratorio. El análisis derivado conserva las cifras originales y sus hashes. Las nueve pruebas y el verificador no fueron modificados. El modelo y el umbral 0.20 permanecen intactos.
+
+| Mejora | Revisión |
+|---|---|
+| Runbooks autónomos en el informe | [PR 1](https://github.com/eduardoaburtoa/actividad8-observabilidad-portafolios/pull/1) |
+| Tablero panel por panel | [PR 2](https://github.com/eduardoaburtoa/actividad8-observabilidad-portafolios/pull/2) |
+| Presupuesto de error explícito | [PR 3](https://github.com/eduardoaburtoa/actividad8-observabilidad-portafolios/pull/3) |
+| Detección y recuperación por incidente | [PR 4](https://github.com/eduardoaburtoa/actividad8-observabilidad-portafolios/pull/4) |
+| Referencias, conclusiones y cobertura | [PR 5](https://github.com/eduardoaburtoa/actividad8-observabilidad-portafolios/pull/5) |
+| Exportación final y concordancia de formatos | Rama `mejora/06-exportacion-final` |
+
+## Reproducir desde cero (nueva corrida)
+
+**Esta sección genera nuevas mediciones y sobrescribe la evidencia de la copia de trabajo.** Para auditar la entrega publicada, usa únicamente la sección anterior. Ejecuta una nueva corrida en otro clon si quieres conservar intactos los archivos originales.
 
 Python 3.12 y SQLAlchemy 2.0.40 fijado por compatibilidad con MLflow 2.22.2. Ejecutar desde la raíz del repositorio. La instalación descarga paquetes; el laboratorio usa el modelo y dataset versionados, sin servicios de pago ni claves externas.
 
