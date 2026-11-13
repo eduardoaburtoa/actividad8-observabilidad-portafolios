@@ -8,18 +8,26 @@ Implementé un laboratorio que detecta y recupera incidentes del servicio de cla
 
 | Quiero revisar | Abrir |
 |---|---|
-| Documento técnico y decisiones | [PDF](documentos/Documento_tecnico.pdf) · [Word editable](documentos/Documento_tecnico.docx) |
-| Evidencia de implementación y MLflow | [PDF](documentos/Evidencia_implementacion.pdf) · [Exportación real MLflow](evidencias/mlflow_export.json) |
-| Incidentes y ejecución de runbooks | [PDF](documentos/Simulacion_incidentes.pdf) · [Pasos registrados](evidencias/runbook_steps.json) |
+| Documento técnico y decisiones | [Leer en GitHub →](documentos/01-documento-tecnico/README.md) |
+| Evidencia de implementación y MLflow | [Leer en GitHub →](documentos/02-evidencia-implementacion/README.md) · [Exportación real MLflow](evidencias/mlflow_export.json) |
+| Incidentes y ejecución de runbooks | [Leer en GitHub →](documentos/03-simulacion-incidentes/README.md) · [Pasos registrados](evidencias/runbook_steps.json) |
 | Tablero Streamlit | [Aplicación](app.py) · instrucciones debajo |
 | Alertas y procedimientos | [Configuración](config/alertas.json) · [Runbooks](runbooks/README.md) |
 | Validar los resultados | [Verificador](scripts/verify_evidence.py) · [Resultados originales](evidencias/summary.json) |
 
 ![Detección y recuperación](evidencias/dashboard_mediciones.png)
 
-## Editar en Google Docs
+[**Explorar toda la documentación →**](documentos/README.md)
+
+<details>
+<summary>Edición en Google Docs y descargas académicas</summary>
+
 
 [Documento técnico](https://docs.google.com/document/d/1-DStylkW7mW17Qdpj9g-uxETDyGbEEtasdzIzSjp1Mg/edit) · [Evidencia de implementación](https://docs.google.com/document/d/1kfE5N71RCpxyjlwEpxE_tJGuRY7CpFboSdRzApfX6qU/edit) · [Simulación de incidentes](https://docs.google.com/document/d/1EKSEgWnlxt1bbbTSyjD0Cb_J-xvNY3GnGHlA1ACmJwM/edit). Documentos actualizados en sus enlaces originales: editables por el autor y con lectura pública comprobada en incógnito el 7 de noviembre de 2026. Los PDF y Word del repositorio contienen el mismo texto; la tabla de cobertura remite a la paginación PDF/Word verificada.
+
+[PDF y Word descargables](documentos/README.md). Los README son ahora la ruta principal de lectura y navegación.
+
+</details>
 
 ## Resultado que conviene interpretar
 
@@ -113,6 +121,6 @@ Mi propósito es preparar revisiones de portafolio con señales trazables y revi
 
 ## Organización
 
-`observabilidad/`: instrumentación y monitor · `config/`: reglas · `scripts/`: laboratorio, gráficas y verificación · `evidencias/`: mediciones reales exportadas · `runbooks/`: respuesta · `pruebas/`: pruebas automatizadas · `documentos/`: entregables · `backend/`, `modelos/`, `datos/`, `frontend/` y `contexto/`: continuidad de Fase II.
+`observabilidad/`: instrumentación y monitor · `config/`: reglas · `scripts/`: laboratorio, gráficas y verificación · `evidencias/`: mediciones reales exportadas · `runbooks/`: respuesta · `pruebas/`: pruebas automatizadas · `documentos/`: índice y tres README de lectura, con descargas académicas · `backend/`, `modelos/`, `datos/`, `frontend/` y `contexto/`: continuidad de Fase II.
 
 [Validación automática](https://github.com/eduardoaburtoa/actividad8-observabilidad-portafolios/actions) · [Historial y decisiones](CHANGELOG.md) · [Aviso de uso académico](AVISO.md)

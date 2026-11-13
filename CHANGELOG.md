@@ -1,3 +1,10 @@
+# Presentación web · 2026-11-12
+
+- Sustituida la ruta principal PDF/Word por tres README completos, con índice, tablas, figuras y navegación.
+- Añadido documentos/README.md como portada de documentación.
+- Conservados archivos académicos como descargas secundarias, referencias y declaración de IA.
+- Sin cambios al modelo, código de servicio ni evidencia experimental.
+
 ## 2026-11-07 · Cierre documental de la revisión
 
 - Ramas 01–05 fusionadas en orden mediante PR 1–5, cada una con Actions en verde: runbooks; dashboard; presupuesto de error; análisis por incidente; cierre formal.
