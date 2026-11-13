@@ -1,4 +1,4 @@
-# Presentación web · 2026-11-12
+# Historial de versiones y mejoras · 2026-11-12
 
 - Sustituida la ruta principal PDF/Word por tres README completos, con índice, tablas, figuras y navegación.
 - Añadido documentos/README.md como portada de documentación.
