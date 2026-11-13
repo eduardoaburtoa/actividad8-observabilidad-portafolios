@@ -1,6 +1,6 @@
 <p align="center"><img src="../vertice_logo.png" width="100" alt="Vértice AI"></p>
 
-# Simulación de incidentes
+# Simulación de incidentes · Respuesta y recuperación
 
 **Actividad 8 · Eduardo Aburto Angulo**
 
