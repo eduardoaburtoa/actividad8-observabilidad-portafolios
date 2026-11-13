@@ -4,7 +4,7 @@
 
 **Eduardo Aburto Angulo · Observabilidad y continuidad del servicio**
 
-Esta es la versión de lectura de los tres entregables. Puedes recorrer su contenido, consultar tablas y ver las evidencias directamente en GitHub.
+Documentación técnica, evidencia de implementación y resultados de los incidentes simulados del sistema de observabilidad.
 
 [← Volver a la portada](../README.md)
 
