@@ -1,6 +1,6 @@
 <p align="center"><img src="../vertice_logo.png" width="100" alt="Vértice AI"></p>
 
-# Evidencia de implementación
+# Evidencia de implementación · Métricas y dashboards
 
 **Actividad 8 · Eduardo Aburto Angulo**
 
