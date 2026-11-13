@@ -1,6 +1,6 @@
 <p align="center"><img src="../vertice_logo.png" width="100" alt="Vértice AI"></p>
 
-# Documento técnico
+# Documento técnico · Diseño de observabilidad
 
 **Actividad 8 · Eduardo Aburto Angulo**
 
