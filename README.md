@@ -2,7 +2,7 @@
 <h1 align="center">Actividad 8 · Observabilidad y continuidad</h1>
 <p align="center">Eduardo Aburto Angulo · Gestión de proyectos de inteligencia artificial<br>Módulo 3 · Semana 10 · Temas 19 y 20</p>
 
-## Empieza aquí
+## Guía de entregables y resultados
 
 Implementé un laboratorio que detecta y recupera incidentes del servicio de clasificación de noticias de Fase II. La evidencia procede de **900 solicitudes HTTP reales**, 15 ventanas y **3 incidentes simulados recuperados**. Las fallas son controladas; no corresponden a tráfico bancario de producción.
 
